@@ -50,16 +50,19 @@ alias xe=edit_template "$@"
 
 PS1='[\u@\h \W]\$ '
 
-fastfetch -l none
+GITHUB_TOKEN=$(gh auth token) dotbins sync
+
 #eval # shellcheck shell=bash
 
 source $HOME/.dotbins/shell/bash.sh
 
-eval -- "$(/usr/bin/starship init bash --print-full-init)"
+#eval -- "$(/usr/bin/starship init bash --print-full-init)"
 
-[[ -f /usr/bin/bash-preexec.sh ]] && source /usr/bin/bash-preexec.sh
-eval "$(atuin init bash)"
+#[[ -f /usr/bin/bash-preexec.sh ]] && source /usr/bin/bash-preexec.sh
+#eval "$(atuin init bash)"
 
-eval "$(zoxide init bash)"
+#eval "$(zoxide init bash)"
 
-. "$HOME/.local/bin/env"
+#. "$HOME/.local/bin/env"
+
+fastfetch -l none
