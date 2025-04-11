@@ -1,0 +1,24 @@
+- clean: ['~']
+
+- link:
+    ~/.profile: profile
+    ~/.bash_profile: bash_profile
+    ~/.bashrc: bashrc
+    ~/.bash_logout: bash_logout
+    ~/.gitconfig: gitconfig
+    ~/.zshrc: zshrc
+    ~/.xinitrc: xinitrc
+    ~/.config/awesome:
+        path: config/awesome/
+        create: true
+    ~/.config/openbox:
+        path: config/openbox/
+        create: true
+    ~/.config/obmenu-generator:
+        path: config/obmenu-generator/
+        create: true
+    ~/.config/tint2:
+        path: config/tint2/
+        create: true
+
+
