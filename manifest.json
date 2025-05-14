@@ -192,6 +192,18 @@
     "sha256": "d065d0df1a1f99529869fba8a5b3e0a25c1795b9007099b00dfabe29c7c1f7b6",
     "url": "https://github.com/casey/just/releases/download/1.40.0/just-1.40.0-aarch64-unknown-linux-musl.tar.gz"
   },
+  "keychain/linux/amd64": {
+    "tag": "2.9.2",
+    "updated_at": "2025-05-14T14:46:05.304747",
+    "sha256": "d38eb3129a65355305656a180d6f45ff7fa1e8a7e48e24aaa2a6d1b39b473407",
+    "url": "https://github.com/funtoo/keychain/releases/download/2.9.2/keychain"
+  },
+  "keychain/linux/arm64": {
+    "tag": "2.9.2",
+    "updated_at": "2025-05-14T14:46:05.307150",
+    "sha256": "d38eb3129a65355305656a180d6f45ff7fa1e8a7e48e24aaa2a6d1b39b473407",
+    "url": "https://github.com/funtoo/keychain/releases/download/2.9.2/keychain"
+  },
   "lazygit/linux/amd64": {
     "tag": "v0.50.0",
     "updated_at": "2025-05-14T05:37:07.539854",
@@ -288,6 +300,42 @@
     "sha256": "9e99f8e9dd70c7015b8c20e49270bdd99e9caf966a41a11982f4d785f6a58c9e",
     "url": "https://github.com/chmln/sd/releases/download/v1.0.0/sd-v1.0.0-aarch64-unknown-linux-musl.tar.gz"
   },
+  "starship/linux/amd64": {
+    "tag": "v1.23.0",
+    "updated_at": "2025-05-14T14:46:05.445007",
+    "sha256": "8d06d2cc67aedd6316ff58ab679fb80cded0d85de1dcd5727df0633d35356d57",
+    "url": "https://github.com/starship/starship/releases/download/v1.23.0/starship-x86_64-unknown-linux-musl.tar.gz"
+  },
+  "starship/linux/arm64": {
+    "tag": "v1.23.0",
+    "updated_at": "2025-05-14T14:46:05.559936",
+    "sha256": "d37040138c68b5f3334bbe16d4615f0a83829deebecc5d014e779c302e8270d8",
+    "url": "https://github.com/starship/starship/releases/download/v1.23.0/starship-aarch64-unknown-linux-musl.tar.gz"
+  },
+  "tldr/linux/amd64": {
+    "tag": "v1.7.2",
+    "updated_at": "2025-05-14T14:46:05.568907",
+    "sha256": "d30bbd35b962bfab5cd3aaef2ece5316ee6f732d25e3f665ddb2797f9d64ee0f",
+    "url": "https://github.com/tealdeer-rs/tealdeer/releases/download/v1.7.2/tealdeer-linux-x86_64-musl"
+  },
+  "tldr/linux/arm64": {
+    "tag": "v1.7.2",
+    "updated_at": "2025-05-14T14:46:05.576380",
+    "sha256": "df8e1e6bb1eb37e36c9f332dae2a07fa6b964b53c9818e4a991fbfb456c73493",
+    "url": "https://github.com/tealdeer-rs/tealdeer/releases/download/v1.7.2/tealdeer-linux-aarch64-musl"
+  },
+  "topgrade/linux/amd64": {
+    "tag": "v16.0.3",
+    "updated_at": "2025-05-14T14:46:05.720734",
+    "sha256": "46eb516fe25069c34dbf2301f6c14ff40fd77ce6e23bdd3206e3f43b5e5a28de",
+    "url": "https://github.com/topgrade-rs/topgrade/releases/download/v16.0.3/topgrade-v16.0.3-x86_64-unknown-linux-musl.tar.gz"
+  },
+  "topgrade/linux/arm64": {
+    "tag": "v16.0.3",
+    "updated_at": "2025-05-14T14:46:05.849341",
+    "sha256": "de261037c92ef667f304de819ccdb4dd1c989121f740b666841bb116b3692293",
+    "url": "https://github.com/topgrade-rs/topgrade/releases/download/v16.0.3/topgrade-v16.0.3-aarch64-unknown-linux-musl.tar.gz"
+  },
   "tre/linux/amd64": {
     "tag": "v0.4.0",
     "updated_at": "2025-05-14T05:37:09.621004",
@@ -299,5 +347,53 @@
     "updated_at": "2025-05-14T05:37:09.693751",
     "sha256": "66098ff66f3b4b3baff207fb10ef61fa55c5a3ebe9ef435331ef6b4eb08087c5",
     "url": "https://github.com/sayanarijit/xplr/releases/download/v1.0.0/xplr-linux-aarch64.tar.gz"
+  },
+  "yazi/linux/amd64": {
+    "tag": "v25.4.8",
+    "updated_at": "2025-05-14T14:46:06.054800",
+    "sha256": "01128a2d9d79018721cc557976ade57c28c61daa47e9f7207f2cbd3d5553a734",
+    "url": "https://github.com/sxyazi/yazi/releases/download/v25.4.8/yazi-x86_64-unknown-linux-musl.zip"
+  },
+  "yazi/linux/arm64": {
+    "tag": "v25.4.8",
+    "updated_at": "2025-05-14T14:46:06.229464",
+    "sha256": "296f64017f71f14c561d0ef5f1add0412547a88ec3d6e3fbdbc698c0a183549f",
+    "url": "https://github.com/sxyazi/yazi/releases/download/v25.4.8/yazi-aarch64-unknown-linux-musl.zip"
+  },
+  "yq/linux/amd64": {
+    "tag": "v4.45.4",
+    "updated_at": "2025-05-14T14:46:06.249313",
+    "sha256": "b96de04645707e14a12f52c37e6266832e03c29e95b9b139cddcae7314466e69",
+    "url": "https://github.com/mikefarah/yq/releases/download/v4.45.4/yq_linux_amd64"
+  },
+  "yq/linux/arm64": {
+    "tag": "v4.45.4",
+    "updated_at": "2025-05-14T14:46:06.268788",
+    "sha256": "a02cc637409db44a9f9cb55ea92c40019582ba88083c4d930a727ec4b59ed439",
+    "url": "https://github.com/mikefarah/yq/releases/download/v4.45.4/yq_linux_arm64"
+  },
+  "zellij/linux/amd64": {
+    "tag": "v0.42.2",
+    "updated_at": "2025-05-14T14:46:06.665454",
+    "sha256": "c2d4833512539455bfdddab5c297d43f7cc3b77d8b7e92ad03e2529111c7c652",
+    "url": "https://github.com/zellij-org/zellij/releases/download/v0.42.2/zellij-x86_64-unknown-linux-musl.tar.gz"
+  },
+  "zellij/linux/arm64": {
+    "tag": "v0.42.2",
+    "updated_at": "2025-05-14T14:46:07.016480",
+    "sha256": "757a69846095309abb163aa33d1b124dca1d748cc9ecb146e185ad4ef13b1c53",
+    "url": "https://github.com/zellij-org/zellij/releases/download/v0.42.2/zellij-aarch64-unknown-linux-musl.tar.gz"
+  },
+  "zoxide/linux/amd64": {
+    "tag": "v0.9.7",
+    "updated_at": "2025-05-14T14:46:07.044238",
+    "sha256": "ee53a42c11fe8a175ef7b136bb91f588aef76e1ae7133e58a695b1199588ee7e",
+    "url": "https://github.com/ajeetdsouza/zoxide/releases/download/v0.9.7/zoxide-0.9.7-x86_64-unknown-linux-musl.tar.gz"
+  },
+  "zoxide/linux/arm64": {
+    "tag": "v0.9.7",
+    "updated_at": "2025-05-14T14:46:07.067820",
+    "sha256": "b8ba8ebd40b37d543480c25b4d66900ffef1a99d06119afaa89a587873bda77f",
+    "url": "https://github.com/ajeetdsouza/zoxide/releases/download/v0.9.7/zoxide-0.9.7-aarch64-unknown-linux-musl.tar.gz"
   }
 }
