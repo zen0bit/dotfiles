@@ -81,7 +81,12 @@ tools:
         amd64: tre-v0.4.0-{arch}-unknown-linux-musl.tar.gz
         arm64: tre-v0.4.0-{arch}-unknown-linux-gnueabihf.tar.gz 
   #xh: ducaale/xh                  # Friendly and fast tool for sending HTTP requests
-  xplr: sayanarijit/xplr          # Hackable, minimal, fast TUI file explorer
+  xplr:                           # Hackable, minimal, fast TUI file explorer
+    repo: sayanarijit/xplr
+    asset_patterns:
+      linux:
+        amd64: xplr-linux.tar.gz
+        arm64: xplr-linux-aarch64.tar.gz
   yazi: sxyazi/yazi               # Terminal file manager with image preview
   yq: mikefarah/yq                # YAML/XML/TOML processor similar to jq
   zellij: zellij-org/zellij       # Terminal multiplexer
