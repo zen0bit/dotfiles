@@ -71,7 +71,15 @@ tools:
   starship: starship/starship     # Minimal, fast, customizable prompt for any shell
   tldr: tealdeer-rs/tealdeer      # Fast tldr client in Rust
   topgrade: topgrade-rs/topgrade  # Upgrade all your tools at once
-  tre: dduan/tre                  # Tree command with git awareness
+  tre:                            # Tree command with git awareness
+    repo: dduan/tre
+    arch_map:
+      amd64: x86_64
+      arm64: arm
+    asset_patterns:
+      linux:
+        amd64: tre-v0.4.0-{arch}-unknown-linux-musl.tar.gz
+        arm64: tre-v0.4.0-{arch}-unknown-linux-gnueabihf.tar.gz 
   #xh: ducaale/xh                  # Friendly and fast tool for sending HTTP requests
   xplr: sayanarijit/xplr          # Hackable, minimal, fast TUI file explorer
   yazi: sxyazi/yazi               # Terminal file manager with image preview
