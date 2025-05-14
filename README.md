@@ -54,6 +54,7 @@ Learn more: [github.com/basnijholt/dotbins](https://github.com/basnijholt/dotbin
 | [lnav](https://github.com/tstack/lnav) | tstack/lnav | 0.12.4 | May 14, 2025 | linux (amd64, arm64) |
 | [lsd](https://github.com/lsd-rs/lsd) | lsd-rs/lsd | 1.1.5 | May 14, 2025 | linux (amd64, arm64) |
 | [mcfly](https://github.com/cantino/mcfly) | cantino/mcfly | 0.9.3 | May 14, 2025 | linux (amd64, arm64) |
+| [nodebro](https://github.com/jonaburg/nodebro) | jonaburg/nodebro | 0.3.0 | May 14, 2025 | linux (amd64, arm64) |
 | [procs](https://github.com/dalance/procs) | dalance/procs | 0.14.10 | May 14, 2025 | linux (amd64, arm64) |
 | [rg](https://github.com/BurntSushi/ripgrep) | BurntSushi/ripgrep | 14.1.1 | May 14, 2025 | linux (amd64, arm64) |
 | [rip](https://github.com/MilesCranmer/rip2) | MilesCranmer/rip2 | 0.9.4 | May 14, 2025 | linux (amd64, arm64) |
@@ -61,8 +62,8 @@ Learn more: [github.com/basnijholt/dotbins](https://github.com/basnijholt/dotbin
 | [starship](https://github.com/starship/starship) | starship/starship | 1.23.0 | May 14, 2025 | linux (amd64, arm64) |
 | [tldr](https://github.com/tealdeer-rs/tealdeer) | tealdeer-rs/tealdeer | 1.7.2 | May 14, 2025 | linux (amd64, arm64) |
 | [topgrade](https://github.com/topgrade-rs/topgrade) | topgrade-rs/topgrade | 16.0.3 | May 14, 2025 | linux (amd64, arm64) |
-| [tre](https://github.com/dduan/tre) | dduan/tre | 0.4.0 | May 14, 2025 | linux (amd64) |
-| [xplr](https://github.com/sayanarijit/xplr) | sayanarijit/xplr | 1.0.0 | May 14, 2025 | linux (arm64) |
+| [tre](https://github.com/dduan/tre) | dduan/tre | 0.4.0 | May 14, 2025 | linux (amd64, arm64) |
+| [xplr](https://github.com/sayanarijit/xplr) | sayanarijit/xplr | 1.0.0 | May 14, 2025 | linux (amd64, arm64) |
 | [yazi](https://github.com/sxyazi/yazi) | sxyazi/yazi | 25.4.8 | May 14, 2025 | linux (amd64, arm64) |
 | [yq](https://github.com/mikefarah/yq) | mikefarah/yq | 4.45.4 | May 14, 2025 | linux (amd64, arm64) |
 | [zellij](https://github.com/zellij-org/zellij) | zellij-org/zellij | 0.42.2 | May 14, 2025 | linux (amd64, arm64) |
@@ -70,44 +71,45 @@ Learn more: [github.com/basnijholt/dotbins](https://github.com/basnijholt/dotbin
 
 ## 📊 Tool Statistics
 
-<div align='center'><h3>📦 66 Tools | 💾 172.25 MB Total Size</h3></div>
+<div align='center'><h3>📦 70 Tools | 💾 838.58 MB Total Size</h3></div>
 
 | Tool | Total Size | Avg Size per Architecture |
 | :--- | :-------- | :------------------------ |
+| difft | 175.14 MB | 87.57 MB |
+| lnav | 122.06 MB | 61.03 MB |
+| atuin | 69.83 MB | 34.92 MB |
 | zellij | 68.41 MB | 34.21 MB |
+| lazygit | 40.28 MB | 20.14 MB |
+| hx | 39.51 MB | 19.76 MB |
+| glow | 32.23 MB | 16.11 MB |
 | yazi | 28.54 MB | 14.27 MB |
 | topgrade | 24.47 MB | 12.23 MB |
+| git-lfs | 22.9 MB | 11.45 MB |
 | yq | 20.95 MB | 10.48 MB |
 | starship | 20.64 MB | 10.32 MB |
+| nodebro | 17.79 MB | 8.89 MB |
+| grex | 14.0 MB | 7.0 MB |
+| delta | 12.88 MB | 6.44 MB |
+| xplr | 12.09 MB | 6.04 MB |
+| procs | 12.04 MB | 6.02 MB |
+| rg | 11.28 MB | 5.64 MB |
+| bat | 11.19 MB | 5.59 MB |
+| mcfly | 10.11 MB | 5.06 MB |
+| just | 8.62 MB | 4.31 MB |
+| fzf | 7.33 MB | 3.66 MB |
+| fd | 7.02 MB | 3.51 MB |
 | tldr | 6.92 MB | 3.46 MB |
+| gping | 6.61 MB | 3.31 MB |
+| lsd | 6.43 MB | 3.22 MB |
+| jless | 5.56 MB | 2.78 MB |
+| sd | 4.48 MB | 2.24 MB |
+| eza | 4.22 MB | 2.11 MB |
+| jq | 3.84 MB | 1.92 MB |
+| rip | 3.45 MB | 1.73 MB |
+| tre | 3.45 MB | 1.73 MB |
 | zoxide | 2.22 MB | 1.11 MB |
+| btop | 1.99 MB | 1017.56 KB |
 | keychain | 88.7 KB | 44.35 KB |
-| atuin | 266.0 B | 133.0 B |
-| difft | 266.0 B | 133.0 B |
-| git-lfs | 266.0 B | 133.0 B |
-| glow | 266.0 B | 133.0 B |
-| hx | 266.0 B | 133.0 B |
-| lazygit | 266.0 B | 133.0 B |
-| lnav | 266.0 B | 133.0 B |
-| bat | 264.0 B | 132.0 B |
-| btop | 264.0 B | 132.0 B |
-| delta | 264.0 B | 132.0 B |
-| eza | 264.0 B | 132.0 B |
-| fd | 264.0 B | 132.0 B |
-| fzf | 264.0 B | 132.0 B |
-| gping | 264.0 B | 132.0 B |
-| grex | 264.0 B | 132.0 B |
-| jless | 264.0 B | 132.0 B |
-| jq | 264.0 B | 132.0 B |
-| just | 264.0 B | 132.0 B |
-| lsd | 264.0 B | 132.0 B |
-| mcfly | 264.0 B | 132.0 B |
-| procs | 264.0 B | 132.0 B |
-| rg | 264.0 B | 132.0 B |
-| rip | 264.0 B | 132.0 B |
-| sd | 264.0 B | 132.0 B |
-| tre | 132.0 B | 132.0 B |
-| xplr | 132.0 B | 132.0 B |
 
 ## 💻 Shell Integration
 
@@ -244,6 +246,7 @@ tools:
   #micromamba: mamba-org/micromamba-releases # Conda-like distribution
   #navi: denisidoro/navi           # Interactive cheatsheet tool for the CLI
   #neovim: neovim/neovim           # Modern text editor
+  nodebro: jonaburg/nodebro       # Golang TUI to track git tag releases on github
   #nu: nushell/nushell             # Modern shell for the GitHub era
   #pastel: sharkdp/pastel          # A command-line tool to generate, convert and manipulate colors
   procs: dalance/procs            # Modern replacement for ps
@@ -254,9 +257,22 @@ tools:
   starship: starship/starship     # Minimal, fast, customizable prompt for any shell
   tldr: tealdeer-rs/tealdeer      # Fast tldr client in Rust
   topgrade: topgrade-rs/topgrade  # Upgrade all your tools at once
-  tre: dduan/tre                  # Tree command with git awareness
+  tre:                            # Tree command with git awareness
+    repo: dduan/tre
+    arch_map:
+      amd64: x86_64
+      arm64: arm
+    asset_patterns:
+      linux:
+        amd64: tre-v0.4.0-{arch}-unknown-linux-musl.tar.gz
+        arm64: tre-v0.4.0-{arch}-unknown-linux-gnueabihf.tar.gz 
   #xh: ducaale/xh                  # Friendly and fast tool for sending HTTP requests
-  xplr: sayanarijit/xplr          # Hackable, minimal, fast TUI file explorer
+  xplr:                           # Hackable, minimal, fast TUI file explorer
+    repo: sayanarijit/xplr
+    asset_patterns:
+      linux:
+        amd64: xplr-linux.tar.gz
+        arm64: xplr-linux-aarch64.tar.gz
   yazi: sxyazi/yazi               # Terminal file manager with image preview
   yq: mikefarah/yq                # YAML/XML/TOML processor similar to jq
   zellij: zellij-org/zellij       # Terminal multiplexer

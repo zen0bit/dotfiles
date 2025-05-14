@@ -252,6 +252,18 @@
     "sha256": "7ff974e9a15b12693e4be8022977faa1526df67f7fd22fb7e627e0ca60ae3438",
     "url": "https://github.com/cantino/mcfly/releases/download/v0.9.3/mcfly-v0.9.3-aarch64-unknown-linux-musl.tar.gz"
   },
+  "nodebro/linux/amd64": {
+    "tag": "v0.3.0",
+    "updated_at": "2025-05-14T15:41:40.524302",
+    "sha256": "0a7f008fd9779870e20847cfbdde96f1d4cbd574dcff6aecba9b8322d6438e47",
+    "url": "https://github.com/jonaburg/nodebro/releases/download/v0.3.0/nodebro-linux-amd64"
+  },
+  "nodebro/linux/arm64": {
+    "tag": "v0.3.0",
+    "updated_at": "2025-05-14T15:41:40.541566",
+    "sha256": "bdcdba721a64fad5a9293a68db14f294dc44b366c79d93deae14867d6edff460",
+    "url": "https://github.com/jonaburg/nodebro/releases/download/v0.3.0/nodebro-linux-arm64"
+  },
   "procs/linux/amd64": {
     "tag": "v0.14.10",
     "updated_at": "2025-05-14T05:37:09.245036",
@@ -341,6 +353,18 @@
     "updated_at": "2025-05-14T05:37:09.621004",
     "sha256": "47b6b20db6cba7114628c024d00ca842ea9ea9eeb1678facd2468fe60b266bac",
     "url": "https://github.com/dduan/tre/releases/download/v0.4.0/tre-v0.4.0-x86_64-unknown-linux-musl.tar.gz"
+  },
+  "tre/linux/arm64": {
+    "tag": "v0.4.0",
+    "updated_at": "2025-05-14T15:48:09.399105",
+    "sha256": "5a356d1b677faac24b03a985b38c7f77b9ca3b5071b813054c2a36a48f4baceb",
+    "url": "https://github.com/dduan/tre/releases/download/v0.4.0/tre-v0.4.0-arm-unknown-linux-gnueabihf.tar.gz"
+  },
+  "xplr/linux/amd64": {
+    "tag": "v1.0.0",
+    "updated_at": "2025-05-14T15:41:40.618421",
+    "sha256": "3fc32841cc2000d3b7017f81c29b6263f7a328b714a4270968cc38852aa0fef0",
+    "url": "https://github.com/sayanarijit/xplr/releases/download/v1.0.0/xplr-linux.tar.gz"
   },
   "xplr/linux/arm64": {
     "tag": "v1.0.0",
