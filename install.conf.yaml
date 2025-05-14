@@ -4,8 +4,8 @@
 
 - clean: ['~']
 
-#- xbps:
-#  - zsh
+- xbps:
+  - zsh
 
 - link:
     ~/.profile: profile
