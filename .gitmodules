@@ -2,3 +2,63 @@
 	path = dotbot
 	url = https://github.com/anishathalye/dotbot
 	ignore = dirty
+[submodule "plugins/conditional"]
+	path = plugins/conditional
+	url = https://gitlab.com/gnfzdz/dotbot-conditional
+[submodule "plugins/ed"]
+	path = plugins/ed
+	url = https://github.com/wonderbeyond/dotbot-ed
+[submodule "plugins/firefox"]
+	path = plugins/firefox
+	url = https://github.com/kurtmckee/dotbot-firefox
+[submodule "plugins/flatpak"]
+	path = plugins/flatpak
+	url = https://github.com/DrDynamic/dotbot-flatpak
+[submodule "plugins/gh-extension"]
+	path = plugins/gh-extension
+	url = https://github.com/fundor333/dotbot-gh-extension
+[submodule "plugins/ghq"]
+	path = plugins/ghq
+	url = https://github.com/klane/dotbot-ghq
+[submodule "plugins/git"]
+	path = plugins/git
+	url = https://github.com/DrDynamic/dotbot-git
+[submodule "plugins/gitcrypt"]
+	path = plugins/gitcrypt
+	url = https://gitlab.com/gnfzdz/dotbot-gitcrypt
+[submodule "plugins/golang"]
+	path = plugins/golang
+	url = https://github.com/delicb/dotbot-golang
+[submodule "plugins/if"]
+	path = plugins/if
+	url = https://github.com/wonderbeyond/dotbot-if
+[submodule "plugins/ifarch"]
+	path = plugins/ifarch
+	url = https://github.com/firefart/dotbot-ifarch
+[submodule "plugins/ifhostname"]
+	path = plugins/ifhostname
+	url = https://github.com/johnlettman/dotbot-ifhostname
+[submodule "plugins/ifplatform"]
+	path = plugins/ifplatform
+	url = https://github.com/ssbanerje/dotbot-ifplatform
+[submodule "plugins/pip"]
+	path = plugins/pip
+	url = https://github.com/sobolevn/dotbot-pip
+[submodule "plugins/stow"]
+	path = plugins/stow
+	url = https://github.com/qbedard/dotbot-stow
+[submodule "plugins/sudo"]
+	path = plugins/sudo
+	url = https://github.com/DrDynamic/dotbot-sudo
+[submodule "plugins/sync"]
+	path = plugins/sync
+	url = https://github.com/j1r1k/dotbot-sync
+[submodule "plugins/template"]
+	path = plugins/template
+	url = https://github.com/ssbanerje/dotbot-template
+[submodule "plugins/xbps"]
+	path = plugins/xbps
+	url = https://github.com/m-wynn/dotbot-xbps
+[submodule "plugins/xi"]
+	path = plugins/xi
+	url = https://github.com/oSoWoSo/dotbot-xi
