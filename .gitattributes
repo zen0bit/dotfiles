@@ -1,0 +1,2 @@
+linux/arm64/bin/* filter=lfs diff=lfs merge=lfs -text
+linux/amd64/bin/* filter=lfs diff=lfs merge=lfs -text

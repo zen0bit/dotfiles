@@ -1,0 +1,303 @@
+{
+  "version": 2,
+  "atuin/linux/amd64": {
+    "tag": "v18.6.1",
+    "updated_at": "2025-05-14T05:37:01.423760",
+    "sha256": "c781d5eeb4c407069fbc402ec3ad11a755f5a916f13220ac4612dccda42399ad",
+    "url": "https://github.com/atuinsh/atuin/releases/download/v18.6.1/atuin-x86_64-unknown-linux-musl.tar.gz"
+  },
+  "atuin/linux/arm64": {
+    "tag": "v18.6.1",
+    "updated_at": "2025-05-14T05:37:01.799450",
+    "sha256": "42b7d9bde8bf2d04832c1b2ceea1d3d89ecd762a40623d92a7197d2287fff82b",
+    "url": "https://github.com/atuinsh/atuin/releases/download/v18.6.1/atuin-aarch64-unknown-linux-musl.tar.gz"
+  },
+  "bat/linux/amd64": {
+    "tag": "v0.25.0",
+    "updated_at": "2025-05-14T05:37:01.885335",
+    "sha256": "93f47d76abe328c402ef712e9ac92aa6d5bc84d5adcbcaf0bbc5665e5275a941",
+    "url": "https://github.com/sharkdp/bat/releases/download/v0.25.0/bat-v0.25.0-x86_64-unknown-linux-musl.tar.gz"
+  },
+  "bat/linux/arm64": {
+    "tag": "v0.25.0",
+    "updated_at": "2025-05-14T05:37:01.961528",
+    "sha256": "ee0f12cf6006a79cf4ccf75d2ddcf9f6ba124644503244b1af909c2f72a2a9f7",
+    "url": "https://github.com/sharkdp/bat/releases/download/v0.25.0/bat-v0.25.0-aarch64-unknown-linux-musl.tar.gz"
+  },
+  "btop/linux/amd64": {
+    "tag": "v1.4.3",
+    "updated_at": "2025-05-14T05:37:01.966571",
+    "sha256": "98f11024899fea672490a2d9515f8b8b863c09f33e0e681f4fdbaa37abfd464a",
+    "url": "https://github.com/aristocratos/btop/releases/download/v1.4.3/btop-x86_64-linux-musl.tbz"
+  },
+  "btop/linux/arm64": {
+    "tag": "v1.4.3",
+    "updated_at": "2025-05-14T05:37:01.970673",
+    "sha256": "83137b2cbcb315fa17018a1666ff064def27303a3e30f3201f2e91cb20adc8a8",
+    "url": "https://github.com/aristocratos/btop/releases/download/v1.4.3/btop-aarch64-linux-musl.tbz"
+  },
+  "delta/linux/amd64": {
+    "tag": "0.18.2",
+    "updated_at": "2025-05-14T05:37:02.055437",
+    "sha256": "b7ea845004762358a00ef9127dd9fd723e333c7e4b9cb1da220c3909372310ee",
+    "url": "https://github.com/dandavison/delta/releases/download/0.18.2/delta-0.18.2-x86_64-unknown-linux-musl.tar.gz"
+  },
+  "delta/linux/arm64": {
+    "tag": "0.18.2",
+    "updated_at": "2025-05-14T05:37:02.132350",
+    "sha256": "adf7674086daa4582f598f74ce9caa6b70c1ba8f4a57d2911499b37826b014f9",
+    "url": "https://github.com/dandavison/delta/releases/download/0.18.2/delta-0.18.2-aarch64-unknown-linux-gnu.tar.gz"
+  },
+  "difft/linux/amd64": {
+    "tag": "0.63.0",
+    "updated_at": "2025-05-14T05:37:02.686895",
+    "sha256": "25310e9fc52d1fcf6c7b179afe19185e574bfb64e1957487e3da7712ba521869",
+    "url": "https://github.com/Wilfred/difftastic/releases/download/0.63.0/difft-x86_64-unknown-linux-musl.tar.gz"
+  },
+  "difft/linux/arm64": {
+    "tag": "0.63.0",
+    "updated_at": "2025-05-14T05:37:03.251064",
+    "sha256": "14db971709cb2fb5af283bcf2bb4db031026896bca9dc13932b50a3aac7de928",
+    "url": "https://github.com/Wilfred/difftastic/releases/download/0.63.0/difft-aarch64-unknown-linux-gnu.tar.gz"
+  },
+  "eza/linux/amd64": {
+    "tag": "v0.21.3",
+    "updated_at": "2025-05-14T05:37:03.288861",
+    "sha256": "e3091d10ad73350d4f7628d6f78b6c6a79701382bc4a5c96f57c34ac8924ef33",
+    "url": "https://github.com/eza-community/eza/releases/download/v0.21.3/eza_x86_64-unknown-linux-musl.tar.gz"
+  },
+  "eza/linux/arm64": {
+    "tag": "v0.21.3",
+    "updated_at": "2025-05-14T05:37:03.317999",
+    "sha256": "1bbf9b35becf0ad895cade8b32de71983f3fe7e2066b893aae3a614b17ca3851",
+    "url": "https://github.com/eza-community/eza/releases/download/v0.21.3/eza_aarch64-unknown-linux-gnu.tar.gz"
+  },
+  "fd/linux/amd64": {
+    "tag": "v10.2.0",
+    "updated_at": "2025-05-14T05:37:03.374604",
+    "sha256": "d9bfa25ec28624545c222992e1b00673b7c9ca5eb15393c40369f10b28f9c932",
+    "url": "https://github.com/sharkdp/fd/releases/download/v10.2.0/fd-v10.2.0-x86_64-unknown-linux-musl.tar.gz"
+  },
+  "fd/linux/arm64": {
+    "tag": "v10.2.0",
+    "updated_at": "2025-05-14T05:37:03.424812",
+    "sha256": "4e8e596646d047d904f2c5ca74b39dccc69978b6e1fb101094e534b0b59c1bb0",
+    "url": "https://github.com/sharkdp/fd/releases/download/v10.2.0/fd-v10.2.0-aarch64-unknown-linux-musl.tar.gz"
+  },
+  "fzf/linux/amd64": {
+    "tag": "v0.62.0",
+    "updated_at": "2025-05-14T05:37:03.472308",
+    "sha256": "64b56dd484a2317d5f04c28ac0791b36807f034adb419209ad39fb6637255794",
+    "url": "https://github.com/junegunn/fzf/releases/download/v0.62.0/fzf-0.62.0-linux_amd64.tar.gz"
+  },
+  "fzf/linux/arm64": {
+    "tag": "v0.62.0",
+    "updated_at": "2025-05-14T05:37:03.518434",
+    "sha256": "929fd132705d02f222a52e23c076018ef3e699793dd5e8c3183bb11ed9b7696e",
+    "url": "https://github.com/junegunn/fzf/releases/download/v0.62.0/fzf-0.62.0-linux_arm64.tar.gz"
+  },
+  "git-lfs/linux/amd64": {
+    "tag": "v3.6.1",
+    "updated_at": "2025-05-14T05:37:03.704207",
+    "sha256": "2138d2e405a12f1a088272e06790b76699b79cb90d0317b77aafaf35de908d76",
+    "url": "https://github.com/git-lfs/git-lfs/releases/download/v3.6.1/git-lfs-linux-amd64-v3.6.1.tar.gz"
+  },
+  "git-lfs/linux/arm64": {
+    "tag": "v3.6.1",
+    "updated_at": "2025-05-14T05:37:03.882125",
+    "sha256": "1c2720ff53528fbe769633d448d830aa7b682141e3c4f6a9f26b9cf3b2548d0a",
+    "url": "https://github.com/git-lfs/git-lfs/releases/download/v3.6.1/git-lfs-linux-arm64-v3.6.1.tar.gz"
+  },
+  "glow/linux/amd64": {
+    "tag": "v2.1.0",
+    "updated_at": "2025-05-14T05:37:04.060811",
+    "sha256": "8f4e9a1c7ed8f8a0f44128d27faae90ab484be7ff109251422c3ba7f9d764a56",
+    "url": "https://github.com/charmbracelet/glow/releases/download/v2.1.0/glow_2.1.0_Linux_x86_64.tar.gz"
+  },
+  "glow/linux/arm64": {
+    "tag": "v2.1.0",
+    "updated_at": "2025-05-14T05:37:04.228778",
+    "sha256": "18d051581bfa1a9a9004657d9e67f259f63d7021dd549e9e7c7afd556dd27a87",
+    "url": "https://github.com/charmbracelet/glow/releases/download/v2.1.0/glow_2.1.0_Linux_arm64.tar.gz"
+  },
+  "gping/linux/amd64": {
+    "tag": "gping-v1.19.0",
+    "updated_at": "2025-05-14T05:37:04.277007",
+    "sha256": "378b79b8eb4831422bb7757afcbc030ef6ad79bb7bc1f7658a8742b8afbfc6ae",
+    "url": "https://github.com/orf/gping/releases/download/gping-v1.19.0/gping-Linux-musl-x86_64.tar.gz"
+  },
+  "gping/linux/arm64": {
+    "tag": "gping-v1.19.0",
+    "updated_at": "2025-05-14T05:37:04.319254",
+    "sha256": "e39ae26148846adb8a1ba34eac9e5570df11984d886e87f1bb727f62becaf149",
+    "url": "https://github.com/orf/gping/releases/download/gping-v1.19.0/gping-Linux-musl-arm64.tar.gz"
+  },
+  "grex/linux/amd64": {
+    "tag": "v1.4.5",
+    "updated_at": "2025-05-14T05:37:04.394720",
+    "sha256": "5bc7ec9ea47e63a9d18f58580561ff9cc9d142489630de5985218f3f4d0e3dd2",
+    "url": "https://github.com/pemistahl/grex/releases/download/v1.4.5/grex-v1.4.5-x86_64-unknown-linux-musl.tar.gz"
+  },
+  "grex/linux/arm64": {
+    "tag": "v1.4.5",
+    "updated_at": "2025-05-14T05:37:04.467159",
+    "sha256": "faf11143f6245da6c183efe12b9228164cea2ef2b3d15a2ac0d263767814343b",
+    "url": "https://github.com/pemistahl/grex/releases/download/v1.4.5/grex-v1.4.5-aarch64-unknown-linux-musl.tar.gz"
+  },
+  "hx/linux/amd64": {
+    "tag": "25.01.1",
+    "updated_at": "2025-05-14T05:37:04.514605",
+    "sha256": "6008c86ac6ce22e971cb96493a6a317816ee34ba8017983e5095255afdb460e2",
+    "url": "https://github.com/helix-editor/helix/releases/download/25.01.1/helix-25.01.1-x86_64.AppImage"
+  },
+  "hx/linux/arm64": {
+    "tag": "25.01.1",
+    "updated_at": "2025-05-14T05:37:07.104871",
+    "sha256": "9101eef949929399ce8d3d13827aa0ed91a49f814c734c7303962edc7cd6fc45",
+    "url": "https://github.com/helix-editor/helix/releases/download/25.01.1/helix-25.01.1-aarch64-linux.tar.xz"
+  },
+  "jless/linux/amd64": {
+    "tag": "v0.9.0",
+    "updated_at": "2025-05-14T05:37:07.145487",
+    "sha256": "a1e0eb63ef347adc649989ac5c7d2dc896df6d494622b953c86e3a248e733a93",
+    "url": "https://github.com/PaulJuliusMartinez/jless/releases/download/v0.9.0/jless-v0.9.0-x86_64-unknown-linux-gnu.zip"
+  },
+  "jless/linux/arm64": {
+    "tag": "v0.9.0",
+    "updated_at": "2025-05-14T05:37:07.181363",
+    "sha256": "a1e0eb63ef347adc649989ac5c7d2dc896df6d494622b953c86e3a248e733a93",
+    "url": "https://github.com/PaulJuliusMartinez/jless/releases/download/v0.9.0/jless-v0.9.0-x86_64-unknown-linux-gnu.zip"
+  },
+  "jq/linux/amd64": {
+    "tag": "jq-1.7.1",
+    "updated_at": "2025-05-14T05:37:07.188863",
+    "sha256": "5942c9b0934e510ee61eb3e30273f1b3fe2590df93933a93d7c58b81d19c8ff5",
+    "url": "https://github.com/jqlang/jq/releases/download/jq-1.7.1/jq-linux-amd64"
+  },
+  "jq/linux/arm64": {
+    "tag": "jq-1.7.1",
+    "updated_at": "2025-05-14T05:37:07.194711",
+    "sha256": "4dd2d8a0661df0b22f1bb9a1f9830f06b6f3b8f7d91211a1ef5d7c4f06a8b4a5",
+    "url": "https://github.com/jqlang/jq/releases/download/jq-1.7.1/jq-linux-arm64"
+  },
+  "just/linux/amd64": {
+    "tag": "1.40.0",
+    "updated_at": "2025-05-14T05:37:07.259947",
+    "sha256": "181b91d0ceebe8a57723fb648ed2ce1a44d849438ce2e658339df4f8db5f1263",
+    "url": "https://github.com/casey/just/releases/download/1.40.0/just-1.40.0-x86_64-unknown-linux-musl.tar.gz"
+  },
+  "just/linux/arm64": {
+    "tag": "1.40.0",
+    "updated_at": "2025-05-14T05:37:07.318414",
+    "sha256": "d065d0df1a1f99529869fba8a5b3e0a25c1795b9007099b00dfabe29c7c1f7b6",
+    "url": "https://github.com/casey/just/releases/download/1.40.0/just-1.40.0-aarch64-unknown-linux-musl.tar.gz"
+  },
+  "lazygit/linux/amd64": {
+    "tag": "v0.50.0",
+    "updated_at": "2025-05-14T05:37:07.539854",
+    "sha256": "bb2bc0ac8b1e2678c650c5aa8a6fa1595e46f8825ce7e6a3833ca95768179881",
+    "url": "https://github.com/jesseduffield/lazygit/releases/download/v0.50.0/lazygit_0.50.0_Linux_x86_64.tar.gz"
+  },
+  "lazygit/linux/arm64": {
+    "tag": "v0.50.0",
+    "updated_at": "2025-05-14T05:37:07.747587",
+    "sha256": "3f5728d99263ae2055ce7f767d60e75fef4faf14b5a5511281108d91b1dff624",
+    "url": "https://github.com/jesseduffield/lazygit/releases/download/v0.50.0/lazygit_0.50.0_Linux_arm64.tar.gz"
+  },
+  "lnav/linux/amd64": {
+    "tag": "v0.12.4",
+    "updated_at": "2025-05-14T05:37:08.345538",
+    "sha256": "c29e0da1f4edfbe1813b32a9738170d3c823711f79c5747b7a15946e99f32242",
+    "url": "https://github.com/tstack/lnav/releases/download/v0.12.4/lnav-0.12.4-linux-musl-x86_64.zip"
+  },
+  "lnav/linux/arm64": {
+    "tag": "v0.12.4",
+    "updated_at": "2025-05-14T05:37:08.928068",
+    "sha256": "217916862ad871996b1282a5d10d17436ac2096e5f67aa78ad6fcd04f2bae6a7",
+    "url": "https://github.com/tstack/lnav/releases/download/v0.12.4/lnav-0.12.4-linux-musl-arm64.zip"
+  },
+  "lsd/linux/amd64": {
+    "tag": "v1.1.5",
+    "updated_at": "2025-05-14T05:37:08.986957",
+    "sha256": "af10fbef2472134c676396a27ecfffb34adb107da2f95d0453a3150ced33ae47",
+    "url": "https://github.com/lsd-rs/lsd/releases/download/v1.1.5/lsd-v1.1.5-x86_64-unknown-linux-musl.tar.gz"
+  },
+  "lsd/linux/arm64": {
+    "tag": "v1.1.5",
+    "updated_at": "2025-05-14T05:37:09.032989",
+    "sha256": "dd84c4add323288ff3dc072955e4ff2364a074a68bf9f1a6fb6556ad310c723b",
+    "url": "https://github.com/lsd-rs/lsd/releases/download/v1.1.5/lsd-v1.1.5-aarch64-unknown-linux-musl.tar.gz"
+  },
+  "mcfly/linux/amd64": {
+    "tag": "v0.9.3",
+    "updated_at": "2025-05-14T05:37:09.104463",
+    "sha256": "be0d3c1e0253189a5d834767231c2a4d206f077f4184699ac7069482ed9c6453",
+    "url": "https://github.com/cantino/mcfly/releases/download/v0.9.3/mcfly-v0.9.3-x86_64-unknown-linux-musl.tar.gz"
+  },
+  "mcfly/linux/arm64": {
+    "tag": "v0.9.3",
+    "updated_at": "2025-05-14T05:37:09.171285",
+    "sha256": "7ff974e9a15b12693e4be8022977faa1526df67f7fd22fb7e627e0ca60ae3438",
+    "url": "https://github.com/cantino/mcfly/releases/download/v0.9.3/mcfly-v0.9.3-aarch64-unknown-linux-musl.tar.gz"
+  },
+  "procs/linux/amd64": {
+    "tag": "v0.14.10",
+    "updated_at": "2025-05-14T05:37:09.245036",
+    "sha256": "ad84b948703e74379edc32d80fe9b862f6f1e95fc1e305ff0a8a3b4cb7b05ee4",
+    "url": "https://github.com/dalance/procs/releases/download/v0.14.10/procs-v0.14.10-x86_64-linux.zip"
+  },
+  "procs/linux/arm64": {
+    "tag": "v0.14.10",
+    "updated_at": "2025-05-14T05:37:09.311401",
+    "sha256": "ef83309695acc4b7eea0ce627b6752b2f79941dfd6967231a2717aa875dc19b9",
+    "url": "https://github.com/dalance/procs/releases/download/v0.14.10/procs-v0.14.10-aarch64-linux.zip"
+  },
+  "rg/linux/amd64": {
+    "tag": "14.1.1",
+    "updated_at": "2025-05-14T05:37:09.396622",
+    "sha256": "4cf9f2741e6c465ffdb7c26f38056a59e2a2544b51f7cc128ef28337eeae4d8e",
+    "url": "https://github.com/BurntSushi/ripgrep/releases/download/14.1.1/ripgrep-14.1.1-x86_64-unknown-linux-musl.tar.gz"
+  },
+  "rg/linux/arm64": {
+    "tag": "14.1.1",
+    "updated_at": "2025-05-14T05:37:09.466531",
+    "sha256": "c827481c4ff4ea10c9dc7a4022c8de5db34a5737cb74484d62eb94a95841ab2f",
+    "url": "https://github.com/BurntSushi/ripgrep/releases/download/14.1.1/ripgrep-14.1.1-aarch64-unknown-linux-gnu.tar.gz"
+  },
+  "rip/linux/amd64": {
+    "tag": "v0.9.4",
+    "updated_at": "2025-05-14T05:37:09.493353",
+    "sha256": "82653ece9d1689ee372e710cb7aede9a810fa995d14107171645167da6c4d747",
+    "url": "https://github.com/MilesCranmer/rip2/releases/download/v0.9.4/rip-Linux-x86_64-musl.tar.gz"
+  },
+  "rip/linux/arm64": {
+    "tag": "v0.9.4",
+    "updated_at": "2025-05-14T05:37:09.518654",
+    "sha256": "32b53d76c25a2b18aba4c547b5a21d34b3fe282fd8e35ad4ef12051ed2823c56",
+    "url": "https://github.com/MilesCranmer/rip2/releases/download/v0.9.4/rip-Linux-aarch64-musl.tar.gz"
+  },
+  "sd/linux/amd64": {
+    "tag": "v1.0.0",
+    "updated_at": "2025-05-14T05:37:09.557963",
+    "sha256": "9f42e4fec7848fa8d6eeab7b1090f5c9c9e374c94a9974db6ff33df052c9e132",
+    "url": "https://github.com/chmln/sd/releases/download/v1.0.0/sd-v1.0.0-x86_64-unknown-linux-musl.tar.gz"
+  },
+  "sd/linux/arm64": {
+    "tag": "v1.0.0",
+    "updated_at": "2025-05-14T05:37:09.592604",
+    "sha256": "9e99f8e9dd70c7015b8c20e49270bdd99e9caf966a41a11982f4d785f6a58c9e",
+    "url": "https://github.com/chmln/sd/releases/download/v1.0.0/sd-v1.0.0-aarch64-unknown-linux-musl.tar.gz"
+  },
+  "tre/linux/amd64": {
+    "tag": "v0.4.0",
+    "updated_at": "2025-05-14T05:37:09.621004",
+    "sha256": "47b6b20db6cba7114628c024d00ca842ea9ea9eeb1678facd2468fe60b266bac",
+    "url": "https://github.com/dduan/tre/releases/download/v0.4.0/tre-v0.4.0-x86_64-unknown-linux-musl.tar.gz"
+  },
+  "xplr/linux/arm64": {
+    "tag": "v1.0.0",
+    "updated_at": "2025-05-14T05:37:09.693751",
+    "sha256": "66098ff66f3b4b3baff207fb10ef61fa55c5a3ebe9ef435331ef6b4eb08087c5",
+    "url": "https://github.com/sayanarijit/xplr/releases/download/v1.0.0/xplr-linux-aarch64.tar.gz"
+  }
+}
