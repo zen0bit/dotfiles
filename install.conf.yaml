@@ -1,0 +1,36 @@
+- defaults:
+    link:
+      relink: true
+
+- clean: ['~']
+
+#- xbps:
+#  - zsh
+
+- link:
+    ~/.profile: profile
+    ~/.bash_profile: bash_profile
+    ~/.bashrc: bashrc
+    ~/.bash_logout: bash_logout
+    ~/.gitconfig: gitconfig
+    ~/.config/bash/aliases: config/bash/aliases
+    ~/.zshrc: zshrc
+    ~/.config/hypr/hyprland.conf: config/hypr/hyprland.conf
+    #~/.xinitrc: xinitrc
+    # ~/.config/awesome:
+    #     path: config/awesome/
+    #     create: true
+    # ~/.config/openbox:
+    #     path: config/openbox/
+    #     create: true
+    # ~/.config/obmenu-generator:
+    #     path: config/obmenu-generator/
+    #     create: true
+    # ~/.config/tint2:
+    #     path: config/tint2/
+    #     create: true
+    ~/post.sh: post.sh
+
+- shell:
+  - [git submodule update --init --recursive, Installing submodules]
+  - [git submodule foreach git pull, Updating submodules]
