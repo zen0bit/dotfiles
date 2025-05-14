@@ -193,16 +193,16 @@
     "url": "https://github.com/casey/just/releases/download/1.40.0/just-1.40.0-aarch64-unknown-linux-musl.tar.gz"
   },
   "keychain/linux/amd64": {
-    "tag": "2.9.2",
-    "updated_at": "2025-05-14T14:46:05.304747",
-    "sha256": "d38eb3129a65355305656a180d6f45ff7fa1e8a7e48e24aaa2a6d1b39b473407",
-    "url": "https://github.com/funtoo/keychain/releases/download/2.9.2/keychain"
+    "tag": "2.9.4",
+    "updated_at": "2025-05-14T22:12:10.567245",
+    "sha256": "4cd6c6b5b7d5146054d68c98cf103fb6f81da135e8562d4c2d7010cb779c6385",
+    "url": "https://github.com/funtoo/keychain/releases/download/2.9.4/keychain"
   },
   "keychain/linux/arm64": {
-    "tag": "2.9.2",
-    "updated_at": "2025-05-14T14:46:05.307150",
-    "sha256": "d38eb3129a65355305656a180d6f45ff7fa1e8a7e48e24aaa2a6d1b39b473407",
-    "url": "https://github.com/funtoo/keychain/releases/download/2.9.2/keychain"
+    "tag": "2.9.4",
+    "updated_at": "2025-05-14T22:12:10.569178",
+    "sha256": "4cd6c6b5b7d5146054d68c98cf103fb6f81da135e8562d4c2d7010cb779c6385",
+    "url": "https://github.com/funtoo/keychain/releases/download/2.9.4/keychain"
   },
   "lazygit/linux/amd64": {
     "tag": "v0.50.0",
@@ -359,6 +359,18 @@
     "updated_at": "2025-05-14T15:48:09.399105",
     "sha256": "5a356d1b677faac24b03a985b38c7f77b9ca3b5071b813054c2a36a48f4baceb",
     "url": "https://github.com/dduan/tre/releases/download/v0.4.0/tre-v0.4.0-arm-unknown-linux-gnueabihf.tar.gz"
+  },
+  "uv/linux/amd64": {
+    "tag": "0.7.3",
+    "updated_at": "2025-05-14T16:40:33.729527",
+    "sha256": "325143825b88e7b0dadd1a8e8d3cbe4791d3cbbb9e2244350d917803fec8b3d1",
+    "url": "https://github.com/astral-sh/uv/releases/download/0.7.3/uv-x86_64-unknown-linux-musl.tar.gz"
+  },
+  "uv/linux/arm64": {
+    "tag": "0.7.3",
+    "updated_at": "2025-05-14T16:40:34.134751",
+    "sha256": "a3f01c3c993b57fa8d13855c5ba60e3847bda4f8e795a52d52879e242e886604",
+    "url": "https://github.com/astral-sh/uv/releases/download/0.7.3/uv-aarch64-unknown-linux-musl.tar.gz"
   },
   "xplr/linux/amd64": {
     "tag": "v1.0.0",

@@ -9,3 +9,40 @@ _arch=$(uname -m)
 
 export PATH="$HOME/.dotfiles/$_os/$_arch/bin:$PATH"
 
+# Tool-specific configurations
+# Configuration for atuin
+if command -v atuin >/dev/null 2>&1; then
+    eval "$(atuin init bash --disable-up-arrow)"
+fi
+
+# Configuration for bat
+if command -v bat >/dev/null 2>&1; then
+    alias bat="bat --paging=never"
+    alias cat="bat --plain --paging=never"
+fi
+
+# Configuration for eza
+if command -v eza >/dev/null 2>&1; then
+    alias l="eza --long --all --git --icons=auto"
+fi
+
+# Configuration for fzf
+if command -v fzf >/dev/null 2>&1; then
+    eval "$(fzf --bash)"
+fi
+
+# Configuration for lazygit
+if command -v lazygit >/dev/null 2>&1; then
+    alias lg="lazygit"
+fi
+
+# Configuration for starship
+if command -v starship >/dev/null 2>&1; then
+    eval "$(starship init bash)"
+fi
+
+# Configuration for zoxide
+if command -v zoxide >/dev/null 2>&1; then
+    eval "$(zoxide init __DOTBINS_SHELL__)"
+fi
+
