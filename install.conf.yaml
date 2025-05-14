@@ -17,9 +17,9 @@
     ~/.zshrc: zshrc
     ~/.config/hypr/hyprland.conf: config/hypr/hyprland.conf
     #~/.xinitrc: xinitrc
-    # ~/.config/awesome:
-    #     path: config/awesome/
-    #     create: true
+    ~/.config/awesome:
+        path: config/awesome/
+        create: true
     # ~/.config/openbox:
     #     path: config/openbox/
     #     create: true
