@@ -163,9 +163,6 @@ fi
 # users are encouraged to define aliases within the OSH_CUSTOM folder.
 # For a full list of active aliases, run `alias`.
 #
-alias ebash="hx ~/.bashrc"
-alias eomb="hx ~/.config/oh-my-bash/"
-
 # Get the aliases and functions
 [ -f $HOME/.config/bash/aliases ] && . $HOME/.config/bash/aliases
 

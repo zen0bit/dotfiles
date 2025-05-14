@@ -78,3 +78,12 @@ alias qg="_run cd $HOME/vm && quickget"
 ###   DOTBOT   ###
 ##################
 alias dotbot='_run dotbot -d ~/.dotfiles -c install.conf.yaml --plugin-dir ~/.dotfiles/plugins'
+alias dotbins='_run dotbins --config-file ~/.dotfiles/dotbins.yaml --tools-dir ~/.dotfiles'
+################
+###   EDIT   ###
+################
+alias ebash="hx $HOME/.bashrc"
+alias eomb="hx $HOME/.config/oh-my-bash/"
+alias eal="hx $HOME/.config/bash/aliases"
+alias edot="hx $HOME/.dotfiles/install.conf.yaml"
+alias ebins="hx $HOME/.dotfiles/dotbins.yaml"
