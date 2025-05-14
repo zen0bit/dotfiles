@@ -61,6 +61,7 @@ tools:
   #micromamba: mamba-org/micromamba-releases # Conda-like distribution
   #navi: denisidoro/navi           # Interactive cheatsheet tool for the CLI
   #neovim: neovim/neovim           # Modern text editor
+  nodebro: jonaburg/nodebro       # Golang TUI to track git tag releases on github
   #nu: nushell/nushell             # Modern shell for the GitHub era
   #pastel: sharkdp/pastel          # A command-line tool to generate, convert and manipulate colors
   procs: dalance/procs            # Modern replacement for ps
