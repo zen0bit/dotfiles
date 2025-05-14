@@ -1,0 +1,80 @@
+# All my bash aliases
+#####################
+###   GUM STYLE   ###
+#####################
+_g() {
+	gum style --border rounded --border-foreground "#14a113" --padding "0 1" "$@"
+}
+_y() {
+	gum style --border rounded --border-foreground "#fdde13" --padding "0 1" "$@"
+}
+_r() {
+	gum style --border rounded --border-foreground "#e50203" --padding "0 1" "$@"
+}
+###############################
+###   SHOW RUNNED COMMAND   ###
+###############################
+_run() {
+	cmd="$@"
+	_g "${cmd}"
+	${cmd}
+}
+################
+###   XBPS   ###
+################
+alias xi='_run xi'                     # install
+alias xs='_run xbps-query -Rs'         # search
+alias xa='_run vpm info'               # info
+alias xr='_run sudo xbps-remove'       # remove
+alias xu='_run sudo xbps-install -Suv' # update
+alias xw='_run xlocate'                # what provide
+#alias ='_run '
+####################
+###   XBPS-SRC   ###
+####################
+_xx() {
+	cd "$HOME/void/"
+	_run ./xbps-src "$@"
+}
+alias xx='_xx "$@"'
+
+# autobump template
+_xxa() {
+	cd "$HOME/void/"
+	_run xxautobump "$@"
+}
+alias xxa='_xxa "$@"'
+
+# lint template
+_xxl() {
+	cd "$HOME/void/"
+	_run xlint "$@"
+}
+alias xxl='_xxl "$@"'
+
+# update checksum
+_xxc() {
+	cd "$HOME/void/"
+	_run xgensum -i "$@"
+}
+alias xxc='_xxc "$@"'
+###################
+###   LAZYGIT   ###
+###################
+alias lg='_run lazygit'
+################
+###   HELP   ###
+################
+alias h='_run tldr'
+alias m='_run man'
+####################
+###   QUICKEMU   ###
+####################
+alias q="_run cd $HOME/vm && q"
+alias dh="_run cd $HOME/vm && dh"
+alias qe="_run cd $HOME/vm && quickemu"
+alias qg="_run cd $HOME/vm && quickget"
+##################
+###   DOTBOT   ###
+##################
+alias dotbot='_run dotbot -d ~/.dotfiles -c install.conf.yaml --plugin-dir ~/.dotfiles/plugins'
