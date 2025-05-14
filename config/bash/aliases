@@ -32,11 +32,11 @@ alias xw='_run xlocate'                # what provide
 ####################
 ###   XBPS-SRC   ###
 ####################
-_xx() {
+xx() {
 	cd "$HOME/void/"
 	_run ./xbps-src "$@"
 }
-alias xx='_xx "$@"'
+#alias xx='_xx "$@"'
 
 # autobump template
 _xxa() {
