@@ -72,6 +72,18 @@
     "sha256": "1bbf9b35becf0ad895cade8b32de71983f3fe7e2066b893aae3a614b17ca3851",
     "url": "https://github.com/eza-community/eza/releases/download/v0.21.3/eza_aarch64-unknown-linux-gnu.tar.gz"
   },
+  "fastfetch/linux/amd64": {
+    "tag": "2.43.0",
+    "updated_at": "2025-05-15T17:53:55.905908",
+    "sha256": "66b19b24816f8f1b0a985517e445eaeab56be8cad8225f638589fe01c557469b",
+    "url": "https://github.com/fastfetch-cli/fastfetch/releases/download/2.43.0/fastfetch-linux-amd64.tar.gz"
+  },
+  "fastfetch/linux/arm64": {
+    "tag": "2.43.0",
+    "updated_at": "2025-05-15T17:53:56.114132",
+    "sha256": "2ae434f03d1e24d86f301608ad799f712b46cdf78cc1ee92ffd87471480cdbbc",
+    "url": "https://github.com/fastfetch-cli/fastfetch/releases/download/2.43.0/fastfetch-linux-aarch64.tar.gz"
+  },
   "fd/linux/amd64": {
     "tag": "v10.2.0",
     "updated_at": "2025-05-14T05:37:03.374604",
@@ -144,6 +156,18 @@
     "sha256": "faf11143f6245da6c183efe12b9228164cea2ef2b3d15a2ac0d263767814343b",
     "url": "https://github.com/pemistahl/grex/releases/download/v1.4.5/grex-v1.4.5-aarch64-unknown-linux-musl.tar.gz"
   },
+  "gum/linux/amd64": {
+    "tag": "v0.16.0",
+    "updated_at": "2025-05-15T17:53:56.242554",
+    "sha256": "7a403e5671bb0e00f93f7b6aa89ec46f7adbda6f7df5c7bad99a01826903b124",
+    "url": "https://github.com/charmbracelet/gum/releases/download/v0.16.0/gum_0.16.0_Linux_x86_64.tar.gz"
+  },
+  "gum/linux/arm64": {
+    "tag": "v0.16.0",
+    "updated_at": "2025-05-15T17:53:56.373263",
+    "sha256": "c28e0a29b5da25df44b95e3f39c773bbb00b9583916431d5e7a762faf011bd0e",
+    "url": "https://github.com/charmbracelet/gum/releases/download/v0.16.0/gum_0.16.0_Linux_arm64.tar.gz"
+  },
   "hx/linux/amd64": {
     "tag": "25.01.1",
     "updated_at": "2025-05-14T05:37:04.514605",
@@ -191,6 +215,18 @@
     "updated_at": "2025-05-14T05:37:07.318414",
     "sha256": "d065d0df1a1f99529869fba8a5b3e0a25c1795b9007099b00dfabe29c7c1f7b6",
     "url": "https://github.com/casey/just/releases/download/1.40.0/just-1.40.0-aarch64-unknown-linux-musl.tar.gz"
+  },
+  "kando/linux/amd64": {
+    "tag": "v1.8.0",
+    "updated_at": "2025-05-15T17:53:56.554224",
+    "sha256": "186cbb1dccf63cc602e21164fb274e77b35d837ad563718fd2b3042496954585",
+    "url": "https://github.com/kando-menu/kando/releases/download/v1.8.0/Kando-1.8.0-x86_64.AppImage"
+  },
+  "kando/linux/arm64": {
+    "tag": "v1.8.0",
+    "updated_at": "2025-05-15T17:53:56.751717",
+    "sha256": "a047e70a9e4c38943c1b8fa045a3c9e5a7271ee73557b0ac3102013815d2f66e",
+    "url": "https://github.com/kando-menu/kando/releases/download/v1.8.0/Kando-1.8.0-aarch64.AppImage"
   },
   "keychain/linux/amd64": {
     "tag": "2.9.4",
@@ -275,6 +311,18 @@
     "updated_at": "2025-05-14T05:37:09.311401",
     "sha256": "ef83309695acc4b7eea0ce627b6752b2f79941dfd6967231a2717aa875dc19b9",
     "url": "https://github.com/dalance/procs/releases/download/v0.14.10/procs-v0.14.10-aarch64-linux.zip"
+  },
+  "quickpassthrough/linux/amd64": {
+    "tag": "2.1.4",
+    "updated_at": "2025-05-15T10:23:13.741741",
+    "sha256": "7d5f3f3b4739a0fddd122a4bf8b29a47830e1c67c5d59af754ad924c074f90bc",
+    "url": "https://github.com/HikariKnight/quickpassthrough/releases/download/2.1.4/quickpassthrough_Linux_x86_64.tar.gz"
+  },
+  "quickpassthrough/linux/arm64": {
+    "tag": "2.1.4",
+    "updated_at": "2025-05-15T10:23:13.753538",
+    "sha256": "7d5f3f3b4739a0fddd122a4bf8b29a47830e1c67c5d59af754ad924c074f90bc",
+    "url": "https://github.com/HikariKnight/quickpassthrough/releases/download/2.1.4/quickpassthrough_Linux_x86_64.tar.gz"
   },
   "rg/linux/amd64": {
     "tag": "14.1.1",
@@ -384,6 +432,12 @@
     "sha256": "66098ff66f3b4b3baff207fb10ef61fa55c5a3ebe9ef435331ef6b4eb08087c5",
     "url": "https://github.com/sayanarijit/xplr/releases/download/v1.0.0/xplr-linux-aarch64.tar.gz"
   },
+  "xxh/linux/amd64": {
+    "tag": "0.8.14",
+    "updated_at": "2025-05-15T10:23:13.793556",
+    "sha256": "0e68724a8919c9b6e06b06a20ec2640e98f206e83049396fd849e1d1b4eeeac5",
+    "url": "https://github.com/xxh/xxh/releases/download/0.8.14/xxh-x86_64.AppImage"
+  },
   "yazi/linux/amd64": {
     "tag": "v25.4.8",
     "updated_at": "2025-05-14T14:46:06.054800",
@@ -419,6 +473,30 @@
     "updated_at": "2025-05-14T14:46:07.016480",
     "sha256": "757a69846095309abb163aa33d1b124dca1d748cc9ecb146e185ad4ef13b1c53",
     "url": "https://github.com/zellij-org/zellij/releases/download/v0.42.2/zellij-aarch64-unknown-linux-musl.tar.gz"
+  },
+  "zen-browser/linux/amd64": {
+    "tag": "1.12.5b",
+    "updated_at": "2025-05-15T17:53:56.928361",
+    "sha256": "1e711730fbd1c0e69cb0c27fa8338a231f7362043e3e75f828b31ca9cb72e6c1",
+    "url": "https://github.com/zen-browser/desktop/releases/download/1.12.5b/zen-x86_64.AppImage"
+  },
+  "zen-browser/linux/arm64": {
+    "tag": "1.12.5b",
+    "updated_at": "2025-05-15T17:53:57.089948",
+    "sha256": "31cb58e3f784bee35b51bb63f5164889925fcb00c75f4ae961114fc51d86550e",
+    "url": "https://github.com/zen-browser/desktop/releases/download/1.12.5b/zen-aarch64.AppImage"
+  },
+  "zesh/linux/amd64": {
+    "tag": "zesh-v0.3.0",
+    "updated_at": "2025-05-15T10:23:13.801185",
+    "sha256": "2d4112a54938171c0adc47296505c3c306d014e10b964dd1f5776d767a5e4e1f",
+    "url": "https://github.com/roberte777/zesh/releases/download/zesh-v0.3.0/zesh"
+  },
+  "zesh/linux/arm64": {
+    "tag": "zesh-v0.3.0",
+    "updated_at": "2025-05-15T10:23:13.805100",
+    "sha256": "2d4112a54938171c0adc47296505c3c306d014e10b964dd1f5776d767a5e4e1f",
+    "url": "https://github.com/roberte777/zesh/releases/download/zesh-v0.3.0/zesh"
   },
   "zoxide/linux/amd64": {
     "tag": "v0.9.7",

@@ -26,6 +26,11 @@ if command -v eza >/dev/null 2>&1; then
     alias l="eza --long --all --git --icons=auto"
 fi
 
+# Configuration for fastfetch
+if command -v fastfetch >/dev/null 2>&1; then
+    alias fatsfetch='fastfetch -l none'
+fi
+
 # Configuration for fzf
 if command -v fzf >/dev/null 2>&1; then
     source <(fzf --zsh)
@@ -41,8 +46,18 @@ if command -v starship >/dev/null 2>&1; then
     eval "$(starship init zsh)"
 fi
 
+# Configuration for zellij
+if command -v zellij >/dev/null 2>&1; then
+    eval "$(zellij setup --generate-auto-start zsh)"
+fi
+
+# Configuration for zen-browser
+if command -v zen-browser >/dev/null 2>&1; then
+    alias zen="zen-browser"
+fi
+
 # Configuration for zoxide
 if command -v zoxide >/dev/null 2>&1; then
-    eval "$(zoxide init __DOTBINS_SHELL__)"
+    eval "$(zoxide init zsh)"
 fi
 

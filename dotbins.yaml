@@ -29,7 +29,10 @@ tools:
   atuin:                          # Shell history and recording tool
     repo: atuinsh/atuin
     shell_code:
-      bash,zsh: |
+      bash: |
+        [[ -f /usr/bin/bash-preexec.sh ]] && source /usr/bin/bash-preexec.sh
+        eval "$(atuin init __DOTBINS_SHELL__ --disable-up-arrow)"
+      zsh: |
         eval "$(atuin init __DOTBINS_SHELL__ --disable-up-arrow)"
   #bandwhich: imsnif/bandwhich     # Terminal bandwidth utilization tool
   bat:                            # Syntax-highlighted cat replacement

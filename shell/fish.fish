@@ -16,6 +16,6 @@ end
 
 # Configuration for zoxide
 if command -v zoxide >/dev/null 2>&1
-    eval "$(zoxide init __DOTBINS_SHELL__)"
+    zoxide init fish | source
 end
 
