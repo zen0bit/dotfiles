@@ -64,6 +64,11 @@ tools:
     shell_code:
       bash,zsh: |
         alias l="eza --long --all --git --icons=auto"
+  fastfetch:                       # Feature-rich and performance oriented, neofetch like system information tool
+    repo: fastfetch-cli/fastfetch
+    shell_code:
+      bash,zsh: |
+        alias fatsfetch='fastfetch -l none'
   fd: sharkdp/fd                  # Simple, fast alternative to find
   fzf:                            # Command-line fuzzy finder
     repo: junegunn/fzf
@@ -77,6 +82,7 @@ tools:
   gping: orf/gping                # Ping with a graph
   grex: pemistahl/grex            # Command-line tool for generating regular expressions from user-provided examples
   #gron: tomnomnom/gron            # Make JSON greppable
+  gum: charmbracelet/gum           # Tool for glamorous shell scripts
   #hexyl: sharkdp/hexyl            # Command-line hex viewer
   hx: helix-editor/helix          # Modern text editor
   #hyperfine: sharkdp/hyperfine    # Command-line benchmarking tool
@@ -85,6 +91,9 @@ tools:
   jq: jqlang/jq                   # Lightweight JSON processor
   just: casey/just                # Command runner alternative to make
   #k9s: derailed/k9s               # Kubernetes CLI to manage clusters
+  kando:                          # Do things with utmost efficiency
+    repo: kando-menu/kando
+  keychain: funtoo/keychain       # ssh-agent manager
   lazygit:                        # Simple terminal UI for git commands
     repo: jesseduffield/lazygit
     shell_code:
@@ -94,16 +103,43 @@ tools:
   lsd: lsd-rs/lsd                 # Next-gen ls command with icons and colors
   mcfly: cantino/mcfly            # Fly through your shell history
   #micro: zyedidia/micro           # Modern and intuitive terminal-based text editor
-  #micromamba: mamba-org/micromamba-releases # Conda-like distribution
+  #micromamba:                     # Conda-like distribution
+    #repo: mamba-org/micromamba-releases
+    #shell_code:
+      #bash,zsh: |
+        #alias mm="micromamba"
   #navi: denisidoro/navi           # Interactive cheatsheet tool for the CLI
   #neovim: neovim/neovim           # Modern text editor
   nodebro: jonaburg/nodebro       # Golang TUI to track git tag releases on github
   #nu: nushell/nushell             # Modern shell for the GitHub era
   #pastel: sharkdp/pastel          # A command-line tool to generate, convert and manipulate colors
   procs: dalance/procs            # Modern replacement for ps
+  #quickemu:                        # Quickly create and run optimised Windows, macOS and Linux virtual machines
+    #repo: quickemu-project/quickemu
+    #tag: 4.9.7
+    #asset_patterns: ${version}.tar.gz
+    #binary_name: [quickemu, quickget, quickreport, chunkcheck]
+    #extract_archive:
+    #path_in_archive: [quickemu, quickget, quickreport, chunkcheck]
+  #quickget:                        # Quickly create and run optimised Windows, macOS and Linux virtual machines
+    #repo: quickemu-project/quickemu
+    #binary_name: quickget
+  #quickreport:                     # Quickly create and run optimised Windows, macOS and Linux virtual machines
+    #repo: quickemu-project/quickemu
+    #binary_name: quickreport
+  #chunkcheck:                      # Quickly create and run optimised Windows, macOS and Linux virtual machines
+    #repo: quickemu-project/quickemu
+    #binary_name: chunkcheck
+  quickpassthrough:               # Remove the complexity of setting up GPU passthrough for qemu
+    repo: HikariKnight/quickpassthrough
   rg: BurntSushi/ripgrep          # Fast grep alternative
   rip: MilesCranmer/rip2          # A safe and ergonomic alternative to rm
   sd: chmln/sd                    # Find & replace CLI
+  #sheldon:                         # Fast, configurable, shell plugin manager
+   # repo: rossmacarthur/sheldon
+    #shell_code:
+     # bash,zsh: |
+      #  eval "$(sheldon source)"
   #sk: skim-rs/skim                # Fuzzy finder for the terminal in Rust (similar to fzf)
   starship:                       # Minimal, fast, customizable prompt for any shell
     repo: starship/starship
@@ -132,11 +168,28 @@ tools:
       linux:
         amd64: xplr-linux.tar.gz
         arm64: xplr-linux-aarch64.tar.gz
+  xxh:                            # Bring your favorite shell wherever you go through the ssh
+    repo: xxh/xxh 
+    asset_patterns:
+      linux:
+        amd64: xxh-x86_64.AppImage
+        # No version available
+        arm64: null # No arm64/aarch64 version available
   yazi: sxyazi/yazi               # Terminal file manager with image preview
   yq: mikefarah/yq                # YAML/XML/TOML processor similar to jq
-  zellij: zellij-org/zellij       # Terminal multiplexer
+  zellij:                          # Terminal multiplexer
+    repo: zellij-org/zellij
+    shell_code:
+      bash,zsh: |
+        eval "$(zellij setup --generate-auto-start __DOTBINS_SHELL__)"
+  zen-browser:                     # Zen browser welcome to a calmer internet
+    repo: zen-browser/desktop
+    shell_code:
+      bash,zsh: |
+        alias zen="zen-browser"
+  zesh: roberte777/zesh           # Zellij session manager with zoxide integration
   zoxide:                         # Smarter cd command with learning
     repo: ajeetdsouza/zoxide
-    shell_code: |
-      eval "$(zoxide init __DOTBINS_SHELL__)"
-  keychain: funtoo/keychain       # ssh-agent manager
+    shell_code:
+      bash,zsh: eval "$(zoxide init __DOTBINS_SHELL__)"
+      fish: zoxide init fish | source
