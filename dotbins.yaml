@@ -182,6 +182,26 @@ tools:
     shell_code:
       bash,zsh: |
         eval "$(zellij setup --generate-auto-start __DOTBINS_SHELL__)"
+  # zellij plugins
+  #~ zellij-bookmarks:                # Zellij plugin for creating, managing, and quickly inserting command bookmarks into the terminal.
+    #~ repo: yaroslavborbat/zellij-bookmarks
+  #~ zellij-branch:
+    #~ repo: dam4rus/zj-git-branch
+  #~ zellij-favs:
+    #~ repo: JoseMM2002/zellij-favs
+  #~ zellij-forgot:                   # Zellij plugin to remember your keybinds and all the other things
+    #~ repo: karimould/zellij-forgot
+  #~ zellij-ghost:                    # Zellij plugin for spawning floating command terminal pane
+    #~ repo: vdbulcke/ghost
+  #~ zellij-multitask:                # Mini-CI as a Zellij plugin
+    #~ repo: imsnif/multitask
+  #~ zellij-room:
+    #~ repo: rvcas/room
+  #~ zellij-switch:                   # Zellij plugin for in-session attach
+    #~ repo: mostafaqanbaryan/zellij-switch
+  #~ zellij-workspace:
+    #~ repo: vdbulcke/zellij-workspace
+  # zellij plugins end
   zen-browser:                     # Zen browser welcome to a calmer internet
     repo: zen-browser/desktop
     shell_code:
