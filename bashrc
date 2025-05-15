@@ -167,4 +167,3 @@ fi
 [ -f $HOME/.config/bash/aliases ] && . $HOME/.config/bash/aliases
 
 export PATH=/home/z/.config/zide/bin:/home/z/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/sbin:/sbin:/bin
-eval "$(zoxide init bash)"
