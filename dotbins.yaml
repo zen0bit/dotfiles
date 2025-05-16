@@ -57,6 +57,12 @@ tools:
   #dog: ogham/dog                  # Command-line DNS client like dig
   #duf: muesli/duf                 # Disk usage analyzer with pretty output
   #dust: bootandy/dust             # More intuitive version of du (disk usage)
+  easybashgui:
+    repo: bashgui/easybashgui
+    tag: 15.0.1
+    #binary_name: [uv, uvx]
+    #path_in_archive: [uv-*/uv, uv-*/uvx]
+    asset_patterns: "{tag}.tar.gz"
   #eget: zyedidia/eget             # Go single file downloader (similar to Dotbins)
   eza:                             # Modern replacement for ls
     repo: eza-community/eza
