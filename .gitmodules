@@ -40,7 +40,7 @@
 	url = https://github.com/johnlettman/dotbot-ifhostname
 [submodule "plugins/ifplatform"]
 	path = plugins/ifplatform
-	url = https://github.com/ssbanerje/dotbot-ifplatform
+	url = git@github.com:osowoso/dotbot-ifplatform.git
 [submodule "plugins/pip"]
 	path = plugins/pip
 	url = https://github.com/sobolevn/dotbot-pip
@@ -61,4 +61,4 @@
 	url = https://github.com/m-wynn/dotbot-xbps
 [submodule "plugins/xi"]
 	path = plugins/xi
-	url = https://github.com/oSoWoSo/dotbot-xi
+	url = git@github.com:oSoWoSo/dotbot-xi.git
