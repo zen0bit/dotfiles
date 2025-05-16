@@ -1,3 +1,3 @@
-source $HOME/.dotbins/shell/zsh.sh
+source $HOME/.dotfiles/shell/zsh.sh
 
 . "$HOME/.local/bin/env"
