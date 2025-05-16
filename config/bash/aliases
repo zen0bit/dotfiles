@@ -1,24 +1,69 @@
 # All my bash aliases
-#####################
-###   GUM STYLE   ###
-#####################
+###############
+###   GUM   ###
+###############
+# Expect message as argument(s)
 _g() {
-	gum style --border rounded --border-foreground "#14a113" --padding "0 1" "$@"
+  gum style --border rounded --border-foreground "#14a113" --padding "0 1" "$@"
 }
 _y() {
-	gum style --border rounded --border-foreground "#fdde13" --padding "0 1" "$@"
+  gum style --border rounded --border-foreground "#fdde13" --padding "0 1" "$@"
 }
 _r() {
-	gum style --border rounded --border-foreground "#e50203" --padding "0 1" "$@"
+  gum style --border rounded --border-foreground "#e50203" --padding "0 1" "$@"
+}
+_gc() {
+  case $1 in
+    '')
+      echo "Shows MENU using: gum choose"
+      echo 'Expect at least 3 arguments: "header" "message" "choice1" "choice2" ...'
+      exit 1
+      ;;
+    *)
+      header1="$1"
+      shift
+      #  --ordered
+      gum choose --cursor.foreground="00002" --header.foreground="00002" --selected.foreground="00002" --header="${header1}" "${@}"
+      ;;
+  esac
+}
+_gf() {
+  case $1 in
+    '')
+      echo "Shows MENU using: gum filter"
+      echo 'Expect at least 4 arguments: "height" "header" "message" "choice1" "choice2" ...'
+      exit 1
+      ;;
+    *)
+      height="$1"
+      shift
+      header1="$1"
+      shift
+      gum filter --height "$height" --cursor-text.foreground="00002" --header.foreground="00002" --indicator.foreground="00002" --selected-indicator.foreground="00002" --header="${header1}" "${@}"
+      ;;
+  esac
 }
 ###############################
 ###   SHOW RUNNED COMMAND   ###
 ###############################
 _run() {
-	cmd="$@"
-	_g "${cmd}"
-	${cmd}
+  cmd="$@"
+  _g "${cmd}"
+  ${cmd}
 }
+#####################
+###   ADD ALIAS   ###
+#####################
+adda() {
+  echo "Which command do you want to use as alias?"
+  read alias
+  echo "Which command should your alias execute?"
+  read command
+  echo "alias $alias='$command'"  | tee -a ~/.bashrc
+  echo
+  echo Alias $alias added
+}
+
 ################
 ###   XBPS   ###
 ################
@@ -33,35 +78,35 @@ alias xw='_run xlocate'                # what provide
 ###   XBPS-SRC   ###
 ####################
 xx() {
-	cd "$HOME/void/"
-	_run ./xbps-src "$@"
+  cd "$HOME/void/"
+  _run ./xbps-src "$@"
 }
 #alias xx='_xx "$@"'
 
 # autobump template
 _xxa() {
-	cd "$HOME/void/"
-	_run xxautobump "$@"
+  cd "$HOME/void/"
+  _run xxautobump "$@"
 }
 alias xxa='_xxa "$@"'
 
 # lint template
 _xxl() {
-	cd "$HOME/void/"
-	_run xlint "$@"
+  cd "$HOME/void/"
+  _run xlint "$@"
 }
 alias xxl='_xxl "$@"'
 
 # update checksum
 _xxc() {
-	cd "$HOME/void/"
-	_run xgensum -i "$@"
+  cd "$HOME/void/"
+  _run xgensum -i "$@"
 }
 alias xxc='_xxc "$@"'
 ###################
 ###   LAZYGIT   ###
 ###################
-alias lg='_run lazygit'
+#alias lg='_run lazygit'
 ################
 ###   HELP   ###
 ################
