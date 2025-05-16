@@ -119,13 +119,13 @@ tools:
   #nu: nushell/nushell             # Modern shell for the GitHub era
   #pastel: sharkdp/pastel          # A command-line tool to generate, convert and manipulate colors
   procs: dalance/procs            # Modern replacement for ps
-  #quickemu:                        # Quickly create and run optimised Windows, macOS and Linux virtual machines
-    #repo: quickemu-project/quickemu
+  quickemu:                        # Quickly create and run optimised Windows, macOS and Linux virtual machines
+    repo: quickemu-project/quickemu
     #tag: 4.9.7
-    #asset_patterns: ${version}.tar.gz
-    #binary_name: [quickemu, quickget, quickreport, chunkcheck]
+    #asset_patterns: "{version}.tar.gz"
+    binary_name: [quickemu, quickget, quickreport, chunkcheck]
     #extract_archive:
-    #path_in_archive: [quickemu, quickget, quickreport, chunkcheck]
+    path_in_archive: [quickemu*/quickemu, quickemu*/quickget, quickemu*/quickreport, quickemu*/chunkcheck]
   #quickget:                        # Quickly create and run optimised Windows, macOS and Linux virtual machines
     #repo: quickemu-project/quickemu
     #binary_name: quickget
