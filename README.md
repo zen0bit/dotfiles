@@ -52,7 +52,7 @@ Learn more: [github.com/basnijholt/dotbins](https://github.com/basnijholt/dotbin
 | [jq](https://github.com/jqlang/jq) | jqlang/jq | jq-1.7.1 | May 14, 2025 | linux (amd64, arm64) |
 | [just](https://github.com/casey/just) | casey/just | 1.40.0 | May 14, 2025 | linux (amd64, arm64) |
 | [kando](https://github.com/kando-menu/kando) | kando-menu/kando | 1.8.0 | May 15, 2025 | linux (amd64, arm64) |
-| [keychain](https://github.com/funtoo/keychain) | funtoo/keychain | 2.9.4 | May 14, 2025 | linux (amd64, arm64) |
+| [keychain](https://github.com/funtoo/keychain) | funtoo/keychain | 2.9.5 | May 16, 2025 | linux (amd64, arm64) |
 | [lazygit](https://github.com/jesseduffield/lazygit) | jesseduffield/lazygit | 0.50.0 | May 14, 2025 | linux (amd64, arm64) |
 | [lnav](https://github.com/tstack/lnav) | tstack/lnav | 0.12.4 | May 14, 2025 | linux (amd64, arm64) |
 | [lsd](https://github.com/lsd-rs/lsd) | lsd-rs/lsd | 1.1.5 | May 14, 2025 | linux (amd64, arm64) |
@@ -125,7 +125,7 @@ Learn more: [github.com/basnijholt/dotbins](https://github.com/basnijholt/dotbin
 | zesh | 2.56 MB | 1.28 MB |
 | zoxide | 2.22 MB | 1.11 MB |
 | btop | 1.99 MB | 1017.56 KB |
-| keychain | 92.47 KB | 46.24 KB |
+| keychain | 92.58 KB | 46.29 KB |
 
 ## 💻 Shell Integration
 
@@ -422,6 +422,6 @@ tools:
 
 ## ℹ️ Additional Information
 
-* This README was automatically generated on May 15, 2025
+* This README was automatically generated on May 16, 2025
 * Current platform: **linux/amd64**
 * For more information on dotbins, visit https://github.com/basnijholt/dotbins

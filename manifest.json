@@ -229,16 +229,16 @@
     "url": "https://github.com/kando-menu/kando/releases/download/v1.8.0/Kando-1.8.0-aarch64.AppImage"
   },
   "keychain/linux/amd64": {
-    "tag": "2.9.4",
-    "updated_at": "2025-05-14T22:12:10.567245",
-    "sha256": "4cd6c6b5b7d5146054d68c98cf103fb6f81da135e8562d4c2d7010cb779c6385",
-    "url": "https://github.com/funtoo/keychain/releases/download/2.9.4/keychain"
+    "tag": "2.9.5",
+    "updated_at": "2025-05-16T17:53:41.802184",
+    "sha256": "52129c8bb8eabbb997315cb6289f389b87c01f21e891bfca6dc1d51813bbd643",
+    "url": "https://github.com/funtoo/keychain/releases/download/2.9.5/keychain"
   },
   "keychain/linux/arm64": {
-    "tag": "2.9.4",
-    "updated_at": "2025-05-14T22:12:10.569178",
-    "sha256": "4cd6c6b5b7d5146054d68c98cf103fb6f81da135e8562d4c2d7010cb779c6385",
-    "url": "https://github.com/funtoo/keychain/releases/download/2.9.4/keychain"
+    "tag": "2.9.5",
+    "updated_at": "2025-05-16T17:53:41.804242",
+    "sha256": "52129c8bb8eabbb997315cb6289f389b87c01f21e891bfca6dc1d51813bbd643",
+    "url": "https://github.com/funtoo/keychain/releases/download/2.9.5/keychain"
   },
   "lazygit/linux/amd64": {
     "tag": "v0.50.0",
