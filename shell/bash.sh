@@ -11,21 +11,21 @@ export PATH="$HOME/.dotfiles/$_os/$_arch/bin:$PATH"
 
 # Tool-specific configurations
 # Configuration for atuin
-if command -v atuin >/dev/null 2>&1; then
-    [[ -f /usr/bin/bash-preexec.sh ]] && source /usr/bin/bash-preexec.sh
-    eval "$(atuin init bash --disable-up-arrow)"
-fi
+#if command -v atuin >/dev/null 2>&1; then
+#    [[ -f /usr/bin/bash-preexec.sh ]] && source /usr/bin/bash-preexec.sh
+#    eval "$(atuin init bash --disable-up-arrow)"
+#fi
 
 # Configuration for bat
-if command -v bat >/dev/null 2>&1; then
-    alias bat="bat --paging=never"
-    alias cat="bat --plain --paging=never"
-fi
+#if command -v bat >/dev/null 2>&1; then
+#    alias bat="bat --paging=never"
+#    #alias cat="bat --plain --paging=never"
+#fi
 
 # Configuration for eza
-if command -v eza >/dev/null 2>&1; then
-    alias l="eza --long --all --git --icons=auto"
-fi
+#if command -v eza >/dev/null 2>&1; then
+#    alias l="eza --long --all --git --icons=auto"
+#fi
 
 # Configuration for fastfetch
 if command -v fastfetch >/dev/null 2>&1; then
@@ -48,9 +48,9 @@ if command -v starship >/dev/null 2>&1; then
 fi
 
 # Configuration for zellij
-if command -v zellij >/dev/null 2>&1; then
-    eval "$(zellij setup --generate-auto-start bash)"
-fi
+#if command -v zellij >/dev/null 2>&1; then
+#    eval "$(zellij setup --generate-auto-start bash)"
+#fi
 
 # Configuration for zen-browser
 if command -v zen-browser >/dev/null 2>&1; then
