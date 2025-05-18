@@ -25,7 +25,9 @@ defaults:
 # Format: tool_name: owner/repo or detailed configuration
 tools:
   # Essential CLI tools with minimal configuration
-  atuin:                          # Shell history and recording tool
+
+  # Shell history and recording tool
+  atuin:
     repo: atuinsh/atuin
     shell_code:
       bash: |
@@ -33,127 +35,250 @@ tools:
         eval "$(atuin init bash --disable-up-arrow)"
       zsh: |
         eval "$(atuin init zsh --disable-up-arrow)"
-  #bandwhich: imsnif/bandwhich     # Terminal bandwidth utilization tool
-  bat:                            # Syntax-highlighted cat replacement
+  # Terminal bandwidth utilization tool
+  #bandwhich: imsnif/bandwhich
+
+  # Syntax-highlighted cat replacement
+  bat:
     repo: sharkdp/bat
     shell_code:
       bash,zsh: |
         alias bat="bat --paging=never"
         alias cat="bat --plain --paging=never"
-  #btm: ClementTsang/bottom        # Graphical system monitor
-  btop: aristocratos/btop         # Resource monitor and process viewer
-  #caddy: caddyserver/caddy        # Web server with automatic HTTPS
-  #choose: theryangeary/choose     # Cut alternative with a simpler syntax
-  #croc: schollz/croc              # File transfer tool with end-to-end encryption
-  #ctop: bcicen/ctop               # Container metrics and monitoring
-  #curlie: rs/curlie               # Curl wrapper with httpie-like syntax
-  delta: dandavison/delta         # Syntax-highlighting pager for git and diff output
-  difft: Wilfred/difftastic       # Structural diff tool that understands syntax
-  #direnv:                         # Environment switcher for the shell
+  # Graphical system monitor
+  #btm: ClementTsang/bottom
+
+  # Resource monitor and process viewer
+  #btop: aristocratos/btop
+
+  # Web server with automatic HTTPS
+  #caddy: caddyserver/caddy
+
+  # Cut alternative with a simpler syntax
+  #choose: theryangeary/choose   
+
+  # File transfer tool with end-to-end encryption
+  #croc: schollz/croc            
+
+  # Container metrics and monitoring
+  #ctop: bcicen/ctop              
+
+  # Curl wrapper with httpie-like syntax
+  #curlie: rs/curlie             
+
+  # Syntax-highlighting pager for git and diff output
+  delta: dandavison/delta       
+
+  # Structural diff tool that understands syntax
+  difft: Wilfred/difftastic     
+
+  # Environment switcher for the shell
+  #direnv:                       
    # repo: direnv/direnv
     #shell_code:
      # bash,zsh: |
       #  eval "$(direnv hook __DOTBINS_SHELL__)"
-  #dog: ogham/dog                  # Command-line DNS client like dig
-  #duf: muesli/duf                 # Disk usage analyzer with pretty output
-  #dust: bootandy/dust             # More intuitive version of du (disk usage)
+
+  # Command-line DNS client like dig
+  #dog: ogham/dog                
+
+  # Disk usage analyzer with pretty output
+  #duf: muesli/duf               
+
+  # More intuitive version of du (disk usage)
+  #dust: bootandy/dust           
+
   easybashgui:
     repo: bashgui/easybashgui
     tag: 15.0.1
     #binary_name: [uv, uvx]
     #path_in_archive: [uv-*/uv, uv-*/uvx]
     asset_patterns: "{tag}.tar.gz"
-  #eget: zyedidia/eget             # Go single file downloader (similar to Dotbins)
-  eza:                             # Modern replacement for ls
+
+  # Go single file downloader (similar to Dotbins)
+  #eget: zyedidia/eget             
+
+  # Modern replacement for ls
+  eza:                           
     repo: eza-community/eza
     shell_code:
       bash,zsh: |
         alias l="eza --long --all --git --icons=auto"
-  fastfetch:                       # Feature-rich and performance oriented, neofetch like system information tool
+
+  # Feature-rich and performance oriented, neofetch like system information tool
+  fastfetch:                     
     repo: fastfetch-cli/fastfetch
     shell_code:
       bash,zsh: |
         alias fatsfetch='fastfetch -l none'
-  fd: sharkdp/fd                  # Simple, fast alternative to find
-  fzf:                            # Command-line fuzzy finder
+
+  # Simple, fast alternative to find
+  fd: sharkdp/fd                
+
+  # Command-line fuzzy finder
+  fzf:                          
     repo: junegunn/fzf
     shell_code:
       zsh: |
         source <(fzf --zsh)
       bash: |
         eval "$(fzf --bash)"
-  git-lfs: git-lfs/git-lfs        # Git extension for versioning large files
-  glow: charmbracelet/glow        # Markdown renderer for the terminal
-  gping: orf/gping                # Ping with a graph
-  grex: pemistahl/grex            # Command-line tool for generating regular expressions from user-provided examples
-  #gron: tomnomnom/gron            # Make JSON greppable
-  gum: charmbracelet/gum           # Tool for glamorous shell scripts
-  #hexyl: sharkdp/hexyl            # Command-line hex viewer
-  hx: helix-editor/helix          # Modern text editor
-  #hyperfine: sharkdp/hyperfine    # Command-line benchmarking tool
-  #jc: kellyjonbrazil/jc           # JSON CLI output converter
-  jless: PaulJuliusMartinez/jless # Command-line JSON viewer
-  jq: jqlang/jq                   # Lightweight JSON processor
-  just: casey/just                # Command runner alternative to make
-  #k9s: derailed/k9s               # Kubernetes CLI to manage clusters
-  kando:                          # Do things with utmost efficiency
+
+  # Git extension for versioning large files
+  git-lfs: git-lfs/git-lfs      
+
+  # Markdown renderer for the terminal
+  glow: charmbracelet/glow      
+
+  # Ping with a graph
+  gping: orf/gping              
+
+  # Command-line tool for generating regular expressions from user-provided examples
+  grex: pemistahl/grex          
+
+  # Make JSON greppable
+  #gron: tomnomnom/gron          
+
+  # Tool for glamorous shell scripts
+  gum: charmbracelet/gum         
+
+  # Command-line hex viewer
+  #hexyl: sharkdp/hexyl          
+
+  # Modern text editor
+  hx: helix-editor/helix        
+
+  # Command-line benchmarking tool
+  #hyperfine: sharkdp/hyperfine  
+
+  # JSON CLI output converter
+  #jc: kellyjonbrazil/jc         
+
+  # Command-line JSON viewer
+  jless: PaulJuliusMartinez/jless
+
+  # Lightweight JSON processor
+  jq: jqlang/jq                 
+
+  # Command runner alternative to make
+  just: casey/just              
+
+  # Kubernetes CLI to manage clusters
+  #k9s: derailed/k9s             
+
+  # Do things with utmost efficiency
+  kando:                        
     repo: kando-menu/kando
-  keychain: funtoo/keychain       # ssh-agent manager
-  lazygit:                        # Simple terminal UI for git commands
+
+  # ssh-agent manager
+  keychain: funtoo/keychain     
+
+  # Simple terminal UI for git commands
+  lazygit:                     
     repo: jesseduffield/lazygit
     shell_code:
       bash,zsh: |
         alias lg="lazygit"
-  lnav: tstack/lnav               # Log file navigator
-  lsd: lsd-rs/lsd                 # Next-gen ls command with icons and colors
-  mcfly: cantino/mcfly            # Fly through your shell history
-  #micro: zyedidia/micro           # Modern and intuitive terminal-based text editor
-  #micromamba:                     # Conda-like distribution
+
+  # Log file navigator
+  lnav: tstack/lnav             
+
+  # Next-gen ls command with icons and colors
+  lsd: lsd-rs/lsd              
+
+  # Fly through your shell history
+  mcfly: cantino/mcfly          
+
+  # Modern and intuitive terminal-based text editor
+  #micro: zyedidia/micro         
+
+  # Conda-like distribution
+  #micromamba:                   
     #repo: mamba-org/micromamba-releases
     #shell_code:
       #bash,zsh: |
         #alias mm="micromamba"
-  #navi: denisidoro/navi           # Interactive cheatsheet tool for the CLI
-  #neovim: neovim/neovim           # Modern text editor
-  nodebro: jonaburg/nodebro       # Golang TUI to track git tag releases on github
-  #nu: nushell/nushell             # Modern shell for the GitHub era
-  #pastel: sharkdp/pastel          # A command-line tool to generate, convert and manipulate colors
-  procs: dalance/procs            # Modern replacement for ps
-  quickemu:                        # Quickly create and run optimised Windows, macOS and Linux virtual machines
+
+  # Interactive cheatsheet tool for the CLI
+  #navi: denisidoro/navi         
+
+  # Modern text editor
+  #neovim: neovim/neovim         
+
+  # Golang TUI to track git tag releases on github
+  nodebro: jonaburg/nodebro     
+
+  # Modern shell for the GitHub era
+  #nu: nushell/nushell           
+
+  # A command-line tool to generate, convert and manipulate colors
+  #pastel: sharkdp/pastel        
+
+  # Modern replacement for ps
+  procs: dalance/procs          
+
+  # Quickly create and run optimised Windows, macOS and Linux virtual machines
+  quickemu:                      
     repo: quickemu-project/quickemu
     #tag: 4.9.7
     #asset_patterns: "{version}.tar.gz"
     binary_name: [quickemu, quickget, quickreport, chunkcheck]
     #extract_archive:
     path_in_archive: [quickemu*/quickemu, quickemu*/quickget, quickemu*/quickreport, quickemu*/chunkcheck]
-  #quickget:                        # Quickly create and run optimised Windows, macOS and Linux virtual machines
+
+  # Quickly create and run optimised Windows, macOS and Linux virtual machines
+  #quickget:                        
     #repo: quickemu-project/quickemu
     #binary_name: quickget
-  #quickreport:                     # Quickly create and run optimised Windows, macOS and Linux virtual machines
+
+  # Quickly create and run optimised Windows, macOS and Linux virtual machines
+  #quickreport:                   
     #repo: quickemu-project/quickemu
     #binary_name: quickreport
-  #chunkcheck:                      # Quickly create and run optimised Windows, macOS and Linux virtual machines
+
+  # Quickly create and run optimised Windows, macOS and Linux virtual machines
+  #chunkcheck:                    
     #repo: quickemu-project/quickemu
     #binary_name: chunkcheck
-  quickpassthrough:               # Remove the complexity of setting up GPU passthrough for qemu
+
+  # Remove the complexity of setting up GPU passthrough for qemu
+  quickpassthrough:              
     repo: HikariKnight/quickpassthrough
-  rg: BurntSushi/ripgrep          # Fast grep alternative
-  rip: MilesCranmer/rip2          # A safe and ergonomic alternative to rm
-  sd: chmln/sd                    # Find & replace CLI
-  #sheldon:                         # Fast, configurable, shell plugin manager
+
+  # Fast grep alternative
+  rg: BurntSushi/ripgrep
+
+  # A safe and ergonomic alternative to rm
+  rip: MilesCranmer/rip2          
+
+  # Find & replace CLI
+  sd: chmln/sd                     
+
+  # Fast, configurable, shell plugin manager
+  #sheldon:                         
    # repo: rossmacarthur/sheldon
     #shell_code:
      # bash,zsh: |
       #  eval "$(sheldon source)"
-  #sk: skim-rs/skim                # Fuzzy finder for the terminal in Rust (similar to fzf)
-  starship:                       # Minimal, fast, customizable prompt for any shell
+
+  # Fuzzy finder for the terminal in Rust (similar to fzf)
+  #sk: skim-rs/skim              
+
+  # Minimal, fast, customizable prompt for any shell
+  starship:                     
     repo: starship/starship
     shell_code:
       bash,zsh: eval "$(starship init __DOTBINS_SHELL__)" # Use placeholder for bash and zsh
       fish: starship init fish | source
-  tldr: tealdeer-rs/tealdeer      # Fast tldr client in Rust
-  topgrade: topgrade-rs/topgrade  # Upgrade all your tools at once
-  tre:                            # Tree command with git awareness
+
+  # Fast tldr client in Rust
+  tldr: tealdeer-rs/tealdeer    
+
+  # Upgrade all your tools at once
+  topgrade: topgrade-rs/topgrade
+
+  # Tree command with git awareness
+  tre:                          
     repo: dduan/tre
     arch_map:
       amd64: x86_64
@@ -162,57 +287,92 @@ tools:
       linux:
         amd64: tre-v0.4.0-{arch}-unknown-linux-musl.tar.gz
         arm64: tre-v0.4.0-{arch}-unknown-linux-gnueabihf.tar.gz 
+
   uv:
     repo: astral-sh/uv
     binary_name: [uv, uvx]
     path_in_archive: [uv-*/uv, uv-*/uvx]
-  #xh: ducaale/xh                  # Friendly and fast tool for sending HTTP requests
-  xplr:                           # Hackable, minimal, fast TUI file explorer
+
+  # Friendly and fast tool for sending HTTP requests
+  #xh: ducaale/xh                
+
+  # Hackable, minimal, fast TUI file explorer
+  xplr:                         
     repo: sayanarijit/xplr
     asset_patterns:
       linux:
         amd64: xplr-linux.tar.gz
         arm64: xplr-linux-aarch64.tar.gz
-  xxh:                            # Bring your favorite shell wherever you go through the ssh
+
+  # Bring your favorite shell wherever you go through the ssh
+  xxh:                          
     repo: xxh/xxh 
     asset_patterns:
       linux:
         amd64: xxh-x86_64.AppImage
         arm64: null #TODO: No arm64/aarch64 version available
-  yazi: sxyazi/yazi               # Terminal file manager with image preview
-  yq: mikefarah/yq                # YAML/XML/TOML processor similar to jq
-  zellij:                          # Terminal multiplexer
+
+  # Terminal file manager with image preview
+  yazi: sxyazi/yazi             
+
+  # YAML/XML/TOML processor similar to jq
+  yq: mikefarah/yq              
+
+  # Terminal multiplexer
+  zellij:                        
     repo: zellij-org/zellij
     shell_code:
       bash,zsh: |
         eval "$(zellij setup --generate-auto-start __DOTBINS_SHELL__)"
+
   # zellij plugins
-  #~ zellij-bookmarks:                # Zellij plugin for creating, managing, and quickly inserting command bookmarks into the terminal.
+  
+  # Zellij plugin for creating, managing, and quickly inserting command bookmarks into the terminal.
+  #~ zellij-bookmarks:
     #~ repo: yaroslavborbat/zellij-bookmarks
+  
   #~ zellij-branch:
     #~ repo: dam4rus/zj-git-branch
+  
   #~ zellij-favs:
     #~ repo: JoseMM2002/zellij-favs
-  #~ zellij-forgot:                   # Zellij plugin to remember your keybinds and all the other things
+  
+  # Zellij plugin to remember your keybinds and all the other things
+  #~ zellij-forgot:                   
     #~ repo: karimould/zellij-forgot
-  #~ zellij-ghost:                    # Zellij plugin for spawning floating command terminal pane
+  
+  # Zellij plugin for spawning floating command terminal pane
+  #~ zellij-ghost:                    
     #~ repo: vdbulcke/ghost
-  #~ zellij-multitask:                # Mini-CI as a Zellij plugin
+  
+  # Mini-CI as a Zellij plugin
+  #~ zellij-multitask:                
     #~ repo: imsnif/multitask
+  
   #~ zellij-room:
     #~ repo: rvcas/room
-  #~ zellij-switch:                   # Zellij plugin for in-session attach
+  
+  # Zellij plugin for in-session attach
+  #~ zellij-switch:                   
     #~ repo: mostafaqanbaryan/zellij-switch
+  
   #~ zellij-workspace:
     #~ repo: vdbulcke/zellij-workspace
+  
   # zellij plugins end
-  zen-browser:                     # Zen browser welcome to a calmer internet
+
+  # Zen browser welcome to a calmer internet
+  zen-browser:                   
     repo: zen-browser/desktop
     shell_code:
       bash,zsh: |
         alias zen="zen-browser"
-  zesh: roberte777/zesh           # Zellij session manager with zoxide integration
-  zoxide:                         # Smarter cd command with learning
+
+  # Zellij session manager with zoxide integration
+  zesh: roberte777/zesh         
+
+  # Smarter cd command with learning
+  zoxide:                       
     repo: ajeetdsouza/zoxide
     shell_code:
       bash,zsh: eval "$(zoxide init __DOTBINS_SHELL__)"
